@@ -3,15 +3,15 @@
     {
       "query_id": "sa_000",
       "query": "What is biryani and which region is it originally associated with?",
-      "response": "Biryani is a rice dish made with rice, spices, and typically meat, though vegetarian versions exist. It originated from the Indian subcontinent and is popular in everyday dining as well as festivals and celebrations.",
+      "response": "Biryani is a rice dish made with rice, spices, and usually meat, originating from South Asia.",
       "retrieved_context": [
         {
           "doc_id": "wiki_biryani",
           "text": "[Introduction] Biryani is a rice dish made with rice, spices, and usually meat, although vegetarian versions also exist. It is one of the best-known dishes associated with South Asian cuisine."
         },
         {
-          "doc_id": "wiki_biryani",
-          "text": "[Regional forms] There are many regional varieties of biryani across the Indian subcontinent. The dish is popular in everyday dining as well as festivals and celebrations."
+          "doc_id": "wiki_pilaf",
+          "text": "[Preparation] Rice is sautéed and then cooked in broth with spices. It is generally less complex than biryani."
         },
         {
           "doc_id": "wiki_biryani",
@@ -30,7 +30,7 @@
     {
       "query_id": "sa_001",
       "query": "What distinguishes Hyderabadi biryani from Lucknowi (Awadhi) biryani?",
-      "response": "Hyderabadi biryani is typically served with more vegetables and is considered more sophisticated compared to Lucknowi (Awadhi) biryani.",
+      "response": "Hyderabadi biryani is made with spiced rice and is more complex than Lucknowi (Awadhi) biryani. Hyderabadi biryani includes more vegetables and uses more spices.",
       "retrieved_context": [
         {
           "doc_id": "wiki_biryani",
@@ -41,50 +41,50 @@
           "text": "[Preparation] Biryani is often prepared by layering rice with spiced ingredients and finishing the cooking together. Different styles vary in seasoning, assembly, and cooking technique."
         },
         {
+          "doc_id": "wiki_pilaf",
+          "text": "[Preparation] Rice is sautéed and then cooked in broth with spices. It is generally less complex than biryani."
+        },
+        {
           "doc_id": "wiki_nepali_cuisine",
           "text": "[Regional diversity] Food differs between the plains, hills, and Himalayan regions because of climate, agriculture, and local traditions. Ingredients and preparation methods change according to what is available locally."
         },
         {
-          "doc_id": "wiki_biryani",
-          "text": "[Introduction] Biryani is a rice dish made with rice, spices, and usually meat, although vegetarian versions also exist. It is one of the best-known dishes associated with South Asian cuisine."
-        },
-        {
-          "doc_id": "wiki_pilaf",
-          "text": "[Preparation] Rice is sautéed and then cooked in broth with spices. It is generally less complex than biryani."
+          "doc_id": "wiki_pakistani_cuisine",
+          "text": "[Common foods] Common foods include naan, roti, paratha, lentils, vegetables, kebabs, curries, pulao, and biryani. Tea, sweets, and desserts are also important in everyday and festive eating."
         }
       ]
     },
     {
       "query_id": "sa_002",
       "query": "What is the difference between naan and roti?",
-      "response": "Naan is a flatbread made with white or wheat flour and combined with a leavening agent, typically yeast, that develops air pockets contributing to its fluffy and soft texture. Roti, on the other hand, is a flatbread made with wheat flour and combined with a leavening agent, typically yeast, that develops air pockets contributing to its fluffy and soft texture.",
+      "response": "Naan is a flatbread made with rice flour, while roti is a flatbread made with wheat flour.",
       "retrieved_context": [
         {
           "doc_id": "wiki_naan",
           "text": "[Indonesia] In Indonesia , naan is a popular alternative to rice among the Indians , Arabs , Malays , Acehnese and the Minangkabaus , similar though not the same as roti or roti canai which was introduced from Tamils . This dish is known as roti naan or roti nan, and is cooked using Indonesian spices such as garlic."
         },
         {
-          "doc_id": "wiki_naan",
-          "text": "[Introduction] Naan ( / n ɑː n / ) is a leavened , oven-baked or tawa -fried flatbread , that can also be baked in a tandoor . It is characterised by a light and fluffy texture and golden-brown spots from the baking process. Naan is used in many cuisines worldwide. Composed of white or wheat flour and combined with a leavening agent, typically yeast, naan dough develops air pockets that contribute to its fluffy and soft texture. Additional ingredients for crafting naan include warm water, salt, ghee and yogurt"
+          "doc_id": "wiki_roti",
+          "text": "[Characteristics] Roti is usually unleavened and thinner than naan. It is commonly eaten with curries or vegetables."
+        },
+        {
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Roti] Most popular roti is Pol roti, where shredded coconut is mixed into the dough, It doesn’t need yeast or any kind of a leavening agent. Another variant is spicy roti, in which chopped onions and green chilies are used when making the dough."
         },
         {
           "doc_id": "wiki_naan",
           "text": "[Japan] After being promoted by Kandagawa Sekizai Shoukou in 1968, which is now the sole domestic manufacturer of tandoors, naan is now widely available in Indian-style curry restaurants in Japan, where naan is typically free-flow. Some restaurants bake ingredients such as cheese, garlic, onions, and potatoes into the naan, or cover it with toppings like a pizza."
         },
         {
-          "doc_id": "wiki_naan",
-          "text": "[Elsewhere] In 1799, the word naan was introduced into the English language by historian and clergyman William Tooke. Today, naan can be found worldwide in restaurants serving South Asian and Middle Eastern cuisine, and it is available in many supermarkets. Fusion cuisine has introduced new dishes that incorporate naan, including naan pizza and naan tacos and even huevos rancheros (an egg dish) served over naan. Naan pizza is a type of pizza where naan is used as the crust instead of the traditional pizza d"
-        },
-        {
-          "doc_id": "wiki_naan",
-          "text": "[Indian subcontinent] Naan spread to the Indian subcontinent during the Islamic Delhi Sultanate period. The earliest mention of naan in the region comes from the memoirs of Indo-Persian Sufi poet Amir Khusrau living in India during the 1300s AD. Khusrau mentions two kinds of naan eaten by Muslim nobles; Naan-e-Tunuk and Naan-e-Tanuri. Naan-e-Tunuk was a light or thin bread, while Naan-e-Tanuri was a heavy bread and was baked in the tandoor. During India’s Mughal era in the 1520s, naan was a delicacy that only nobles "
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Kottu] Kottu is a spicy stir-fry of shredded roti bread with vegetables. Optional ingredients include eggs , meat , or cheese . It was invented in Colombo and literally means 'chopped roti'."
         }
       ]
     },
     {
       "query_id": "sa_003",
       "query": "How is dosa batter traditionally prepared?",
-      "response": "Dosa batter is typically spread on a hot griddle or flat cooking surface and cooked until it reaches the desired texture.",
+      "response": "Dosa batter is typically prepared by spreading the batter on a hot griddle or flat cooking surface and cooking until it reaches the desired texture.",
       "retrieved_context": [
         {
           "doc_id": "wiki_dosa",
@@ -95,23 +95,23 @@
           "text": "[Introduction] Dosa is a thin savory pancake or crepe strongly associated with South Indian cuisine. It is made from a fermented batter, usually based on rice and black gram."
         },
         {
-          "doc_id": "wiki_dosa",
-          "text": "[Serving style] Dosa is often eaten with chutneys and sambar. Some versions are filled, especially masala dosa with spiced potato filling."
-        },
-        {
-          "doc_id": "wiki_dosa",
-          "text": "[Popularity] Dosa is widely eaten in South Asia and has spread far beyond its regional origins. It is commonly served for breakfast but may also be eaten at other times of day."
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Hoppers] Hoppers ( appam in Tamil, appa in Sinhala) are based on a fermented batter, usually made of rice flour and coconut milk with spices . The dish is pan-fried or steamed. The fermenting agent is palm toddy or yeast. Hopper variants can either be spicy (such as egg hoppers, milk hoppers, and string hoppers), or sweet (such as vandu appa and pani appa) . Spicy hoppers are often accompanied by lunu miris , a mix of red onions and spices."
         },
         {
           "doc_id": "wiki_naan",
           "text": "[Myanmar] Naan bya ( Burmese : နံပြား ) in Myanmar is traditionally served at teahouses with tea or coffee as a breakfast item. It is round, soft, and blistered, often buttered, or with creamy pè byouk (boiled chickpeas ) cooked with onions spread on top, or dipped with Burmese curry ."
+        },
+        {
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Kiribath] Kiribath or paal soru ( lit. 'milk rice') is rice cooked in salted coconut milk until the grains turn soft and porridge-like. Generally eaten for breakfast, kiribath is also prepared on special occasions such as birthdays, New Years' and religious festivals. It is usually served with lunu miris , a relish made with red onions and chillies. There is also a method of cooking kiribath with mung beans . During Aluth Avurudu/Puthandu , the Sinhalese/Tamil New Year, kiribath is served with sweets such"
         }
       ]
     },
     {
       "query_id": "sa_004",
       "query": "What ingredients are used in a classic samosa and how is it cooked?",
-      "response": "Common ingredients in a classic samosa include rice, meat or vegetables, yogurt, onions, herbs, and aromatic spices. Samosas are typically fried or baked and filled with spiced ingredients. They are often eaten as a snack or street food and are popular during gatherings and festive occasions.",
+      "response": "Samosas typically use chicken, yogurt, spices, and rice. They are usually fried or baked and filled with spices.",
       "retrieved_context": [
         {
           "doc_id": "wiki_samosa",
@@ -122,50 +122,50 @@
           "text": "[Serving style] Samosa is often eaten as a snack or street food and is commonly served with chutney. It is also popular during gatherings and festive occasions."
         },
         {
-          "doc_id": "wiki_nepali_cuisine",
-          "text": "[Regional diversity] Food differs between the plains, hills, and Himalayan regions because of climate, agriculture, and local traditions. Ingredients and preparation methods change according to what is available locally."
-        },
-        {
-          "doc_id": "wiki_biryani",
-          "text": "[Ingredients] Common ingredients include rice, meat or vegetables, yogurt, onions, herbs, and aromatic spices. Eggs or potatoes are included in some regional versions."
+          "doc_id": "wiki_tandoori_chicken",
+          "text": "[Preparation] Chicken is marinated in yogurt and spices such as turmeric, cumin, and chili powder. It is then cooked at high temperatures in a tandoor oven."
         },
         {
           "doc_id": "wiki_sri_lankan_cuisine",
           "text": "[Lamprais] A Dutch Burgher -influenced dish, lamprais is rice boiled in stock accompanied by frikkadels ( frikadeller meatballs), a mixed-meat curry, blachan, aubergine curry, and seeni sambol . All of this is then wrapped in a banana leaf and baked in an oven. Lamprais is ideal for special occasions with large gatherings considering its richness and the time it takes to prepare. Lamprais is cooked twice; first the rice and the entrees are cooked separately and later what is already cooked is wrapped in a "
+        },
+        {
+          "doc_id": "wiki_biryani",
+          "text": "[Ingredients] Common ingredients include rice, meat or vegetables, yogurt, onions, herbs, and aromatic spices. Eggs or potatoes are included in some regional versions."
         }
       ]
     },
     {
       "query_id": "sa_005",
       "query": "What is cardamom and what are the differences between green and black cardamom?",
-      "response": "Cardamom is a spice made from the seeds of several plants in the genus Elettaria and Amomum in the family Zingiberaceae. It comes in two main varieties: green cardamom and black cardamom. Green cardamom has a more smoky aroma compared to black cardamom, which is known for its coolness.",
+      "response": "Cardamom is a spice made from the seeds of several plants in the genus Elettaria and Amomum in the family Zingiberaceae. Green cardamom is used as a spice, a masticatory, or is smoked, while black cardamom is used as a spice and is smoked.",
       "retrieved_context": [
+        {
+          "doc_id": "wiki_cardamom",
+          "text": "[Uses] Both forms of cardamom are used as flavorings and cooking spices in food and drink. E. cardamomum (green cardamom) is used as a spice, a masticatory , or is smoked."
+        },
         {
           "doc_id": "wiki_cardamom",
           "text": "[Introduction] Cardamom ( / ˈ k ɑːr d ə m ə m / ), sometimes cardamon or cardamum , is a spice made from the seeds of several plants in the genera Elettaria and Amomum in the family Zingiberaceae . Both genera are native to the Indian subcontinent and Indonesia . They are recognized by their small seed pods: triangular in cross-section and spindle-shaped, with a thin, papery outer shell and small, black seeds; Elettaria pods are light green and smaller, while Amomum pods are dark brown and larger. Species used"
         },
         {
-          "doc_id": "wiki_cardamom",
-          "text": "[Food and beverage] Cardamom has a strong taste, with an aromatic, resinous fragrance. Black cardamom has a more smoky – though not bitter – aroma, with a coolness comparable to mint. Green cardamom is one of the most expensive spices by weight, but little is needed to impart flavor. It is best stored in the pod, as exposed or ground seeds quickly lose their flavor. Grinding the pods and seeds together lowers both the quality and the price. For recipes requiring whole cardamom pods, a generally accepted equivalent "
+          "doc_id": "wiki_nepali_cuisine",
+          "text": "[Regional diversity] Food differs between the plains, hills, and Himalayan regions because of climate, agriculture, and local traditions. Ingredients and preparation methods change according to what is available locally."
         },
         {
-          "doc_id": "wiki_cardamom",
-          "text": "[History] Cardamom has been used in flavorings and food over centuries. During the Middle Ages, cardamom dominated the trade industry. The Arab states played a significant role in the trade of Indian spices, including cardamom. It is now ranked the third most expensive spice following saffron and vanilla . Cardamom production began in ancient times, and has been referred to in ancient Sanskrit texts as ela . The Babylonians and Assyrians used the spice early on, and trade in cardamom opened up along land "
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Lamprais] A Dutch Burgher -influenced dish, lamprais is rice boiled in stock accompanied by frikkadels ( frikadeller meatballs), a mixed-meat curry, blachan, aubergine curry, and seeni sambol . All of this is then wrapped in a banana leaf and baked in an oven. Lamprais is ideal for special occasions with large gatherings considering its richness and the time it takes to prepare. Lamprais is cooked twice; first the rice and the entrees are cooked separately and later what is already cooked is wrapped in a "
         },
         {
-          "doc_id": "wiki_cardamom",
-          "text": "[Trade] Cardamom production's demand and supply patterns of trade are influenced by price movements, nationally and internationally, in 5 to 6-year cycles. Importing leaders mentioned are Saudi Arabia and Kuwait , while other significant importers include Germany , Iran , Japan , Jordan , Pakistan , Qatar , United Arab Emirates , the UK , and the former USSR . According to the United Nations Conference on Trade and Development , 80 percent of cardamom's total consumption occurs in the Middle East . In t"
-        },
-        {
-          "doc_id": "wiki_cardamom",
-          "text": "[Uses] Both forms of cardamom are used as flavorings and cooking spices in food and drink. E. cardamomum (green cardamom) is used as a spice, a masticatory , or is smoked."
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Common ingredients] Herbs: pandan leaf (rampe) , curry leaf (karapincha) , shallot , goraka , lemongrass , tamarind , garlic , ginger , lime , cayenne pepper , tabasco pepper Fish: Maldives fish , dried fish , mackerel , tuna , shark , sprats , fermented preserved fish Grains: white rice (some common varieties are Samba, Kekulu, and Suwandel), red rice (some common varieties are Kekulu, Pachchaperumal, Kaluheenati, and Madathawalu), finger millet , hog millet , olu haal (water lily seed) Spices: cinnamon , black pe"
         }
       ]
     },
     {
       "query_id": "sa_006",
       "query": "How does Sri Lankan cuisine differ from South Indian cuisine?",
-      "response": "Sri Lankan cuisine differs from South Indian cuisine in terms of the use of certain spices and ingredients. Sri Lankan cuisine features a blend of traditional and imported spices like cinnamon, black pepper, and cumin, while South Indian cuisine often uses less of these elements. Additionally, Sri Lankan cuisine incorporates more seafood into its dishes compared to South Indian cuisine.",
+      "response": "Sri Lankan cuisine differs from South Indian cuisine in its emphasis on seafood, coconut, and rice. Sri Lankan cuisine is known for its combination of herbs, spices, fish, vegetables, rices, and fruits, while South Indian cuisine focuses on seafood, coconut, and rice.",
       "retrieved_context": [
         {
           "doc_id": "wiki_sri_lankan_cuisine",
@@ -176,23 +176,23 @@
           "text": "[Sri Lankan Chinese] Chinese restaurants have been staple dining-out options for many Sri Lankans, especially in Colombo, since the 1940s. Over time, the cuisine was adapted to suit the local palate, and Sri Lankan Chinese food was born. Several dishes and condiments - such as Hot butter cuttlefish and Chinese Chili paste - have become firm local favorites and are commonly found in most restaurants and supermarkets."
         },
         {
-          "doc_id": "wiki_sri_lankan_cuisine",
-          "text": "[Rice and curry] The central feature of Sri Lankan cuisine is boiled or steamed rice, served with a curry of fish or meat , along with other curries made with vegetables , lentils , or fruits . Dishes are accompanied by pickled fruits or vegetables, chutneys , and sambols . Coconut sambol is especially common, a paste of ground coconut mixed with chili peppers , dried Maldives fish , and lime juice ."
-        },
-        {
           "doc_id": "wiki_indian_cuisine",
           "text": "[Regional diversity] Indian cuisine varies strongly by region, with distinct North Indian, South Indian, East Indian, and West Indian traditions. Different areas use locally available grains, vegetables, fruits, spices, and cooking methods."
         },
         {
-          "doc_id": "wiki_sri_lankan_cuisine",
-          "text": "[Regions] In areas located on the island's coasts, seafood is a standard feature of the local dishes. Tamil cuisine , especially in Jaffna , shares many similarities with South Indian cuisine . Kandyan Sinhalese cooking is based on local ingredients, including hill vegetables and fruits."
+          "doc_id": "wiki_curry",
+          "text": "[Introduction] Curry is a broad term for many sauced or spiced dishes, especially those associated with South Asian cuisines. It does not refer to a single standardized dish."
+        },
+        {
+          "doc_id": "wiki_dosa",
+          "text": "[Introduction] Dosa is a thin savory pancake or crepe strongly associated with South Indian cuisine. It is made from a fermented batter, usually based on rice and black gram."
         }
       ]
     },
     {
       "query_id": "sa_007",
       "query": "What is the difference between a curry and a masala?",
-      "response": "A curry is a broad term for many sauced or spiced dishes, especially those associated with South Asian cuisines. It does not refer to a single standardized dish.",
+      "response": "A curry is a broad term for many sauced or spiced dishes, especially those associated with South Asian cuisines. It does not refer to a single standardized dish. A masala is a type of spice blend used in Indian cooking, typically consisting of a combination of spices such as cumin, coriander, turmeric, and cardam",
       "retrieved_context": [
         {
           "doc_id": "wiki_sri_lankan_cuisine",
@@ -203,23 +203,23 @@
           "text": "[Introduction] Curry is a broad term for many sauced or spiced dishes, especially those associated with South Asian cuisines. It does not refer to a single standardized dish."
         },
         {
-          "doc_id": "wiki_nepali_cuisine",
-          "text": "[Regional diversity] Food differs between the plains, hills, and Himalayan regions because of climate, agriculture, and local traditions. Ingredients and preparation methods change according to what is available locally."
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Lamprais] A Dutch Burgher -influenced dish, lamprais is rice boiled in stock accompanied by frikkadels ( frikadeller meatballs), a mixed-meat curry, blachan, aubergine curry, and seeni sambol . All of this is then wrapped in a banana leaf and baked in an oven. Lamprais is ideal for special occasions with large gatherings considering its richness and the time it takes to prepare. Lamprais is cooked twice; first the rice and the entrees are cooked separately and later what is already cooked is wrapped in a "
         },
         {
           "doc_id": "wiki_curry",
           "text": "[Meaning of the term] The English word curry became common during the colonial period as a general label for many South Asian dishes. Local cuisines often use more specific names for particular dishes."
         },
         {
-          "doc_id": "wiki_sri_lankan_cuisine",
-          "text": "[Lamprais] A Dutch Burgher -influenced dish, lamprais is rice boiled in stock accompanied by frikkadels ( frikadeller meatballs), a mixed-meat curry, blachan, aubergine curry, and seeni sambol . All of this is then wrapped in a banana leaf and baked in an oven. Lamprais is ideal for special occasions with large gatherings considering its richness and the time it takes to prepare. Lamprais is cooked twice; first the rice and the entrees are cooked separately and later what is already cooked is wrapped in a "
+          "doc_id": "wiki_nepali_cuisine",
+          "text": "[Regional diversity] Food differs between the plains, hills, and Himalayan regions because of climate, agriculture, and local traditions. Ingredients and preparation methods change according to what is available locally."
         }
       ]
     },
     {
       "query_id": "sa_008",
       "query": "What are the key features of Pakistani cuisine compared to North Indian cuisine?",
-      "response": "Pakistani cuisine emphasizes bold flavors, uses more spices, and serves a variety of meat, rice, lentils, and bread dishes. This contrasts with North Indian cuisine which focuses on less spiciness, uses fewer spices, and typically serves vegetarian dishes.",
+      "response": "Pakistani cuisine emphasizes bold flavors, spice use, and a wide range of meat, rice, lentil, and bread dishes. North Indian cuisine is known for its emphasis on spices, particularly ginger, cumin, and turmeric.",
       "retrieved_context": [
         {
           "doc_id": "wiki_pakistani_cuisine",
@@ -246,7 +246,7 @@
     {
       "query_id": "sa_009",
       "query": "What is butter chicken and where did it originate?",
-      "response": "Butter chicken originated in Sri Lanka, specifically in Colombo, which dates back to the 1940s.",
+      "response": "Butter chicken is a South Asian dish made with marinated chicken marinated in yogurt and spices such as turmeric, cumin, and chili powder. It is typically cooked in a tandoor oven.",
       "retrieved_context": [
         {
           "doc_id": "wiki_tandoori_chicken",
@@ -273,7 +273,7 @@
     {
       "query_id": "sa_010",
       "query": "How is tandoori chicken traditionally prepared?",
-      "response": "Tandoori chicken is prepared by marinating chicken in yogurt and spices such as turmeric, cumin, and chili powder, which is then cooked at high temperatures in a tandoor oven.",
+      "response": "Tandoori chicken is prepared by marinating chicken in yogurt and spices such as turmeric, cumin, and chili powder, then cooking it at high temperatures in a tandoor oven.",
       "retrieved_context": [
         {
           "doc_id": "wiki_tandoori_chicken",
@@ -284,12 +284,12 @@
           "text": "[Myanmar] Naan bya ( Burmese : နံပြား ) in Myanmar is traditionally served at teahouses with tea or coffee as a breakfast item. It is round, soft, and blistered, often buttered, or with creamy pè byouk (boiled chickpeas ) cooked with onions spread on top, or dipped with Burmese curry ."
         },
         {
-          "doc_id": "wiki_bangladeshi_cuisine",
-          "text": "[Cooking style] The cuisine includes curries, bhortas, rice dishes, vegetable preparations, and lentil-based foods. Flavor often comes from spice blends, mustard, and careful balancing of richness and heat."
+          "doc_id": "wiki_naan",
+          "text": "[China] The Jingzhou style of guokui , a flatbread prepared inside a cylindrical charcoal oven much like a tandoor, has been described as \"Chinese naan\". It is also an integral part of Uyghur cuisine and is known in Chinese as 饢 ( náng )."
         },
         {
-          "doc_id": "wiki_turmeric",
-          "text": "[Culinary] Turmeric is one of the key ingredients in many Asian dishes, imparting a mustard-like, earthy aroma and pungent, slightly bitter flavor to foods. It is used mostly in savory dishes, but also is used in some sweet dishes, such as the Lebanese cake sfouf . In India, turmeric leaf is used to prepare special sweet dishes, patoleo , by layering rice flour and coconut - jaggery mixture on the leaf, then closing and steaming it in a special utensil ( chondrõ ). Most turmeric is used in the form of rhiz"
+          "doc_id": "wiki_bangladeshi_cuisine",
+          "text": "[Cooking style] The cuisine includes curries, bhortas, rice dishes, vegetable preparations, and lentil-based foods. Flavor often comes from spice blends, mustard, and careful balancing of richness and heat."
         },
         {
           "doc_id": "wiki_indian_cuisine",
@@ -300,34 +300,34 @@
     {
       "query_id": "sa_011",
       "query": "What is dal and why is it important in South Asian cuisine?",
-      "response": "Dal is a traditional South Asian dish made from ground gram flour, spices, and vegetables. It's often served with rice or flatbread and is considered a primary source of protein in vegetarian diets. Dal is an integral part of many South Asian cuisines, particularly in regions like India, Pakistan, Bangladesh, and Sri Lanka.",
+      "response": "Dal is typically cooked with spices and served with rice or flatbread. It is a primary source of protein in vegetarian diets.",
       "retrieved_context": [
         {
           "doc_id": "wiki_dal",
           "text": "[Usage] Dal is typically cooked with spices and served with rice or flatbread. It is a primary source of protein in vegetarian diets."
         },
         {
-          "doc_id": "wiki_nepali_cuisine",
-          "text": "[Staple foods] Dal bhat is one of the best-known staple meals, usually consisting of rice, lentil soup, and side dishes. Vegetables, pickles, flatbreads, and dumplings such as momo are also common."
+          "doc_id": "wiki_pakistani_cuisine",
+          "text": "[Introduction] Pakistani cuisine reflects a mix of South Asian, Persian, Central Asian, and Mughal influences. It is known for bold flavors, spice use, and a wide range of meat, rice, lentil, and bread dishes."
         },
         {
           "doc_id": "wiki_samosa",
           "text": "[Introduction] Samosa is a savory pastry, usually triangular, that is fried or baked and filled with spiced ingredients. It is one of the best-known snacks in South Asian cuisine."
         },
         {
-          "doc_id": "wiki_dosa",
-          "text": "[Popularity] Dosa is widely eaten in South Asia and has spread far beyond its regional origins. It is commonly served for breakfast but may also be eaten at other times of day."
+          "doc_id": "wiki_nepali_cuisine",
+          "text": "[Staple foods] Dal bhat is one of the best-known staple meals, usually consisting of rice, lentil soup, and side dishes. Vegetables, pickles, flatbreads, and dumplings such as momo are also common."
         },
         {
           "doc_id": "wiki_sri_lankan_cuisine",
-          "text": "[Lamprais] A Dutch Burgher -influenced dish, lamprais is rice boiled in stock accompanied by frikkadels ( frikadeller meatballs), a mixed-meat curry, blachan, aubergine curry, and seeni sambol . All of this is then wrapped in a banana leaf and baked in an oven. Lamprais is ideal for special occasions with large gatherings considering its richness and the time it takes to prepare. Lamprais is cooked twice; first the rice and the entrees are cooked separately and later what is already cooked is wrapped in a "
+          "text": "[Introduction] Sri Lankan cuisine is known for its particular combinations of herbs, spices, fish, vegetables, rices , and fruits. The cuisine is highly centered around many varieties of rice, as well as coconut which is a ubiquitous plant throughout the country. Seafood also plays a significant role in the cuisine, be it fresh fish or preserved fish. As a country that was a hub in the historic oceanic silk road , contact with foreign traders brought new food items and cultural influences in addition to the lo"
         }
       ]
     },
     {
       "query_id": "sa_012",
       "query": "What is the difference between biryani and pilaf?",
-      "response": "Biryani is a rice dish made with rice, spices, and meat, while pilaf is a rice dish made with rice, spices, and water.",
+      "response": "Biryani is a rice dish prepared with spiced ingredients, while pilaf is a rice dish prepared with broth.",
       "retrieved_context": [
         {
           "doc_id": "wiki_biryani",
@@ -338,16 +338,16 @@
           "text": "[Preparation] Biryani is often prepared by layering rice with spiced ingredients and finishing the cooking together. Different styles vary in seasoning, assembly, and cooking technique."
         },
         {
-          "doc_id": "wiki_biryani",
-          "text": "[Introduction] Biryani is a rice dish made with rice, spices, and usually meat, although vegetarian versions also exist. It is one of the best-known dishes associated with South Asian cuisine."
-        },
-        {
           "doc_id": "wiki_nepali_cuisine",
           "text": "[Regional diversity] Food differs between the plains, hills, and Himalayan regions because of climate, agriculture, and local traditions. Ingredients and preparation methods change according to what is available locally."
         },
         {
           "doc_id": "wiki_pilaf",
           "text": "[Preparation] Rice is sautéed and then cooked in broth with spices. It is generally less complex than biryani."
+        },
+        {
+          "doc_id": "wiki_sri_lankan_cuisine",
+          "text": "[Lamprais] A Dutch Burgher -influenced dish, lamprais is rice boiled in stock accompanied by frikkadels ( frikadeller meatballs), a mixed-meat curry, blachan, aubergine curry, and seeni sambol . All of this is then wrapped in a banana leaf and baked in an oven. Lamprais is ideal for special occasions with large gatherings considering its richness and the time it takes to prepare. Lamprais is cooked twice; first the rice and the entrees are cooked separately and later what is already cooked is wrapped in a "
         }
       ]
     }
