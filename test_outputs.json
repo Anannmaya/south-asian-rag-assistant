@@ -3,7 +3,7 @@
     {
       "query_id": "sa_000",
       "query": "What is biryani and which region is it originally associated with?",
-      "response": "Biryani is a rice dish made with rice, spices, and usually meat, originating from South Asia.",
+      "response": "Biryani is a rice dish made with rice, spices, and typically meat, though vegetarian versions exist. It originated from the Indian subcontinent and is popular in everyday dining as well as festivals and celebrations.",
       "retrieved_context": [
         {
           "doc_id": "wiki_biryani",
@@ -111,7 +111,7 @@
     {
       "query_id": "sa_004",
       "query": "What ingredients are used in a classic samosa and how is it cooked?",
-      "response": "Common ingredients include rice, meat or vegetables, yogurt, onions, herbs, and aromatic spices. Samosas are typically fried or baked and filled with spiced ingredients. They are often eaten as a snack or street food and are popular during gatherings and festive occasions.",
+      "response": "Common ingredients in a classic samosa include rice, meat or vegetables, yogurt, onions, herbs, and aromatic spices. Samosas are typically fried or baked and filled with spiced ingredients. They are often eaten as a snack or street food and are popular during gatherings and festive occasions.",
       "retrieved_context": [
         {
           "doc_id": "wiki_samosa",
@@ -138,7 +138,7 @@
     {
       "query_id": "sa_005",
       "query": "What is cardamom and what are the differences between green and black cardamom?",
-      "response": "Cardamom is a spice made from the seeds of several plants in the genus Elettaria and Amomum in the family Zingiberaceae. It is native to the Indian subcontinent and Indonesia. Green cardamom is one of the most expensive spices by weight, but little is needed to impart flavor. It is best stored in the pod, as exposed or ground seeds quickly lose",
+      "response": "Cardamom is a spice made from the seeds of several plants in the genus Elettaria and Amomum in the family Zingiberaceae. It comes in two main varieties: green cardamom and black cardamom. Green cardamom has a more smoky aroma compared to black cardamom, which is known for its coolness.",
       "retrieved_context": [
         {
           "doc_id": "wiki_cardamom",
@@ -165,7 +165,7 @@
     {
       "query_id": "sa_006",
       "query": "How does Sri Lankan cuisine differ from South Indian cuisine?",
-      "response": "Sri Lankan cuisine differs from South Indian cuisine in terms of the use of certain ingredients like fish, coconut, and lemongrass.",
+      "response": "Sri Lankan cuisine differs from South Indian cuisine in terms of the use of certain spices and ingredients. Sri Lankan cuisine features a blend of traditional and imported spices like cinnamon, black pepper, and cumin, while South Indian cuisine often uses less of these elements. Additionally, Sri Lankan cuisine incorporates more seafood into its dishes compared to South Indian cuisine.",
       "retrieved_context": [
         {
           "doc_id": "wiki_sri_lankan_cuisine",
@@ -246,7 +246,7 @@
     {
       "query_id": "sa_009",
       "query": "What is butter chicken and where did it originate?",
-      "response": "Butter chicken originated in Sri Lanka, specifically in Colombo, since the 1940s.",
+      "response": "Butter chicken originated in Sri Lanka, specifically in Colombo, which dates back to the 1940s.",
       "retrieved_context": [
         {
           "doc_id": "wiki_tandoori_chicken",
@@ -300,7 +300,7 @@
     {
       "query_id": "sa_011",
       "query": "What is dal and why is it important in South Asian cuisine?",
-      "response": "Dal is a traditional South Asian dish made from ground gram flour, vegetables, and spices. It's often served with rice or flatbread and is considered a primary source of protein in vegetarian diets.",
+      "response": "Dal is a traditional South Asian dish made from ground gram flour, spices, and vegetables. It's often served with rice or flatbread and is considered a primary source of protein in vegetarian diets. Dal is an integral part of many South Asian cuisines, particularly in regions like India, Pakistan, Bangladesh, and Sri Lanka.",
       "retrieved_context": [
         {
           "doc_id": "wiki_dal",
