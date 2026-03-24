@@ -1,106 +1,802 @@
 [
   {
     "query_id": "sa_000",
-    "query": "What is biryani and which region is it originally associated with?",
-    "answer": "Biryani is a mixed rice dish originating in the Indian subcontinent, made with long-grain basmati rice, spices, and meat, vegetables, or eggs. It is closely associated with Mughal cuisine and is particularly famous in the city of Hyderabad as well as in Lucknow, where the dum cooking technique is used to slow-cook the layered rice and meat together.",
-    "answer_source": "wiki_biryani",
+    "query": "What is biryani and which culinary tradition is it most closely associated with?",
+    "answer": "Biryani is a mixed rice dish made with long-grain basmati rice, meat, aromatic spices, and sometimes vegetables. Its name derives from the Persian words for 'to fry' and 'rice'. It is most closely associated with Mughal cuisine, having developed in the royal kitchens of the Mughal Empire, where Persian pilaf techniques were combined with South Asian spices and ingredients.",
+    "answer_source": "india_dish_biryani",
     "question_type": "factual",
     "difficulty": "easy"
   },
   {
     "query_id": "sa_001",
-    "query": "What distinguishes Hyderabadi biryani from Lucknowi (Awadhi) biryani?",
-    "answer": "Hyderabadi biryani uses the kacchi (raw) method, where raw marinated meat is layered directly with par-cooked rice and slow-cooked together using the dum technique, resulting in meat that cooks in its own juices and deeply flavours the rice. Lucknowi (Awadhi) biryani uses the pakki method, where the meat is fully cooked before being layered with the rice, producing a more subtle, fragrant flavour. Hyderabadi biryani tends to be spicier and more robust, while Awadhi biryani is noted for its delicate, aromatic character.",
-    "answer_source": "wiki_biryani",
-    "question_type": "comparative",
-    "difficulty": "hard"
+    "query": "What is butter chicken and where did it originate?",
+    "answer": "Butter chicken, also known as murgh makhani, is a mildly spiced curry made from chicken cooked in a rich, creamy tomato and butter-based gravy. It originated in Delhi in the mid-twentieth century, attributed to Kundan Lal Gujral and the Moti Mahal restaurant, where it was reportedly created by simmering leftover tandoori chicken in a tomato-butter sauce.",
+    "answer_source": "india_dish_butter_chicken",
+    "question_type": "factual",
+    "difficulty": "easy"
   },
   {
     "query_id": "sa_002",
-    "query": "What is the difference between naan and roti?",
-    "answer": "Naan is a leavened flatbread made from white wheat flour, typically with yoghurt or yeast, and is traditionally baked in a tandoor oven, giving it a soft, slightly charred exterior with air pockets. Roti (also called chapati) is an unleavened flatbread made from whole-wheat flour (atta) and water, and is cooked on a flat griddle (tawa). Roti is thinner, lighter, and lower in calories, and is an everyday staple, while naan is richer, softer, and more often served at restaurants or special occasions.",
-    "answer_source": "wiki_naan",
-    "question_type": "comparative",
+    "query": "What is paneer and how is it made?",
+    "answer": "Paneer is a fresh, non-aged, non-melting cottage cheese used throughout South Asian cuisine. It is made by heating full-fat milk to near-boiling and curdling it with an acidic agent such as lemon juice or vinegar. The curds are separated from the whey, collected in cheesecloth, and pressed under a weight for one to two hours to produce firm, sliceable blocks. Paneer does not melt when heated, making it suitable for grilling, frying, and simmering in curries.",
+    "answer_source": "india_ingredient_paneer",
+    "question_type": "factual",
     "difficulty": "easy"
   },
   {
     "query_id": "sa_003",
-    "query": "How is dosa batter traditionally prepared?",
-    "answer": "Traditional dosa batter is made by soaking rice and urad dal separately, grinding them, and fermenting the mixture before cooking it on a hot pan.",
-    "answer_source": "wiki_dosa",
-    "question_type": "procedural",
-    "difficulty": "medium"
+    "query": "What is ghee and why is it important in Indian cooking?",
+    "answer": "Ghee is clarified butter made by simmering unsalted butter until water evaporates and milk solids are removed, leaving pure golden fat with a rich, nutty, caramel-like aroma. It is the traditional cooking fat of India and is important for its high smoke point, its intense flavour, its role in finishing dishes like dal and rice, and its deep cultural and religious significance — it is considered a sacred ingredient in Hindu ritual and Ayurvedic medicine.",
+    "answer_source": "india_ingredient_ghee",
+    "question_type": "factual",
+    "difficulty": "easy"
   },
   {
     "query_id": "sa_004",
-    "query": "What ingredients are used in a classic samosa and how is it cooked?",
-    "answer": "A classic samosa consists of a pastry shell filled with spiced potatoes and peas, then deep-fried until crisp.",
-    "answer_source": "wiki_samosa",
-    "question_type": "procedural",
-    "difficulty": "medium"
+    "query": "What is dal makhani and what makes it distinctive?",
+    "answer": "Dal makhani is a rich, slow-cooked lentil dish from Punjabi cuisine made primarily from whole black lentils (urad dal) and red kidney beans, simmered overnight with tomatoes, butter, and cream. What makes it distinctive is the overnight slow-cooking that develops deep, complex flavour, and the generous use of butter and cream which gives it a velvety, indulgent texture. It is associated with dhaba roadside restaurant culture in Punjab.",
+    "answer_source": "india_dish_dal_makhani",
+    "question_type": "factual",
+    "difficulty": "easy"
   },
   {
     "query_id": "sa_005",
-    "query": "What is cardamom and what are the differences between green and black cardamom?",
-    "answer": "Cardamom is a spice from plant seed pods. Green cardamom is sweet and aromatic, while black cardamom is smoky and used in savoury dishes.",
-    "answer_source": "wiki_cardamom",
-    "question_type": "ingredient",
-    "difficulty": "hard"
+    "query": "What is garam masala and how does it differ from curry powder?",
+    "answer": "Garam masala is a fragrant North Indian spice blend, typically a powder of five or more dried spices including cardamom, cinnamon, cloves, black pepper, and cumin, used to add warmth and aromatic depth. It differs from curry powder in that it does not contain turmeric (which gives curry powder its yellow colour) and is generally added at the end of cooking as a finishing spice rather than at the beginning. Each region and household has its own distinct garam masala blend.",
+    "answer_source": "india_ingredient_garam_masala",
+    "question_type": "factual",
+    "difficulty": "medium"
   },
   {
     "query_id": "sa_006",
-    "query": "How does Sri Lankan cuisine differ from South Indian cuisine?",
-    "answer": "Sri Lankan cuisine uses more coconut milk, is spicier, and includes ingredients like Maldive fish, with strong colonial influences.",
-    "answer_source": "wiki_sri_lankan_cuisine",
-    "question_type": "comparative",
-    "difficulty": "hard"
+    "query": "What is the dum cooking technique and which dishes use it?",
+    "answer": "Dum cooking is a slow-cooking technique in which food is sealed inside a heavy pot with a tight-fitting lid — traditionally with dough pressed around the rim — and cooked over a very low flame. The trapped steam circulates inside the sealed pot, cooking the ingredients in their own vapours and juices. The technique is most associated with biryani and Awadhi cuisine, where it produces the characteristic fluffy rice, tender meat, and concentrated aromas of dishes like Lucknowi dum biryani.",
+    "answer_source": "india_technique_dum_cooking",
+    "question_type": "technique",
+    "difficulty": "medium"
   },
   {
     "query_id": "sa_007",
-    "query": "What is the difference between a curry and a masala?",
-    "answer": "Curry refers to a sauce-based dish, while masala refers to a spice mix or seasoning.",
-    "answer_source": "wiki_curry",
-    "question_type": "comparative",
+    "query": "What is tadka and when is it used in Indian cooking?",
+    "answer": "Tadka (also called chaunk or tempering) is the technique of briefly frying whole spices and aromatics in hot oil or ghee until they release their essential oils and become fragrant, then pouring this infused oil over or stirring it into a dish. It is used either at the beginning of cooking to build a flavour base or at the end as a finishing garnish. Common tadka spices include cumin seeds, mustard seeds, dried red chillies, curry leaves, and asafoetida.",
+    "answer_source": "india_technique_tadka",
+    "question_type": "technique",
     "difficulty": "medium"
   },
   {
     "query_id": "sa_008",
-    "query": "What are the key features of Pakistani cuisine compared to North Indian cuisine?",
-    "answer": "Pakistani cuisine is more meat-heavy, uses more whole spices, and has stronger Central Asian influences.",
-    "answer_source": "wiki_pakistani_cuisine",
+    "query": "What is tamarind and how is it used in Indian cuisine?",
+    "answer": "Tamarind is the pod-fruit of the Tamarindus indica tree, native to tropical Africa but long cultivated across South Asia. The ripe pulp inside the pods is intensely sour, fruity, and slightly sweet. In Indian cooking it is used as a primary souring agent in South Indian dishes including sambar, rasam, tamarind rice, and chutneys, as well as in chaat preparations and pickles. It is most commonly used as a concentrate dissolved in water after soaking and straining the pulp.",
+    "answer_source": "india_ingredient_tamarind",
+    "question_type": "technique",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_009",
+    "query": "What are the key characteristics of Rajasthani cuisine and how has its geography shaped it?",
+    "answer": "Rajasthani cuisine has been shaped by the state's arid, semi-desert geography where water is scarce and fresh vegetables are limited. As a result, food is cooked in milk or ghee rather than water, gram flour substitutes for vegetables, and preparations that keep for several days without refrigeration are preferred. Signature dishes include dal baati churma, ker sangri, and laal maas. The cuisine tends to be spicy and rich, relying on dried legumes and preserved ingredients rather than fresh produce.",
+    "answer_source": "india_regional_rajasthani_cuisine",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_010",
+    "query": "What is asafoetida and why is it particularly important in Jain cooking?",
+    "answer": "Asafoetida (hing) is a dried gum resin from the Ferula plant with an intensely sulfurous smell in its raw state that transforms into a pleasant onion-like aroma when cooked briefly in hot oil. It is particularly important in Jain cooking because Jain dietary rules prohibit the consumption of onion and garlic, which are believed to harm underground organisms when harvested. Asafoetida serves as the essential flavour substitute, providing the allium-like savouriness that other cuisines achieve with onion and garlic.",
+    "answer_source": "india_ingredient_asafoetida",
+    "question_type": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_011",
+    "query": "What distinguishes Awadhi cuisine from Mughlai cuisine?",
+    "answer": "Awadhi cuisine, centred on Lucknow, is more subtle and delicate than Mughlai cuisine, despite sharing common heritage. Where Mughlai cooking achieves richness through cream, dried fruits, and bold spice blends cooked in a tandoor, Awadhi cuisine relies on the dum pukht slow-cooking technique in sealed vessels to develop flavour through gentle steaming. Awadhi food is considered more restrained in spicing and produces a more nuanced, aromatic profile. The Awadhi bawarchis are credited with inventing the dum technique itself.",
+    "answer_source": "india_regional_awadhi_cuisine",
+    "question_type": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_012",
+    "query": "What is the difference between dosa and idli?",
+    "answer": "Both dosa and idli are South Indian preparations made from the same fermented batter of rice and urad dal. The difference lies in cooking method and texture: idli is steamed in round moulds to produce soft, spongy, round cakes that are light and easily digestible. Dosa is spread thin on a hot griddle and cooked until crispy, producing a thin, lacy, golden crepe. Idli is a breakfast staple eaten with sambar and chutneys; masala dosa has the additional element of a spiced potato filling.",
+    "answer_source": "india_dish_dosa",
+    "question_type": "comparative",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_013",
+    "query": "How does South Indian cuisine differ from North Indian cuisine?",
+    "answer": "South Indian cuisine is centred on rice as the primary staple, uses coconut oil and coconut milk as dominant cooking mediums, relies on tamarind as its main souring agent, and features curry leaves, mustard seeds, and dried red chillies in tempering. North Indian cuisine is wheat-dominant, uses ghee and cream extensively, relies on thick, spiced tomato and onion-based gravies, and features tandoor-cooked breads and meats. The flavour profiles differ: South Indian food tends to be sharper and more acidic while North Indian food is richer and more aromatic.",
+    "answer_source": "india_regional_tamil_cuisine",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_014",
+    "query": "What is the difference between samosa and kachori?",
+    "answer": "Both samosa and kachori are deep-fried South Asian pastries but they differ in shape, dough, and filling. A samosa has a triangular or cone shape with a thin, crispy refined wheat flour shell and is typically filled with spiced potato and peas. A kachori is rounder and flatter with a thicker, more crumbly shell, usually filled with a spiced lentil or dal mixture. Kachori tends to be flakier and more substantial, while samosa has a thinner, crisper exterior.",
+    "answer_source": "india_dish_samosa",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_015",
+    "query": "How does Hyderabadi cuisine differ from the broader North Indian culinary tradition?",
+    "answer": "Hyderabadi cuisine is a unique fusion of Mughlai, Arabic, Persian, and South Indian elements developed under the patronage of the Nizams. Unlike standard North Indian cuisine which uses onion-tomato-cream based sauces, Hyderabadi cooking adds tamarind, dried coconut, and red chillies — South Indian elements — alongside Mughal-style aromatic spicing. The result is a cuisine that bridges North and South: the biryani uses the kacchi (raw meat) dum method for extreme tenderness, and dishes like baghara baingan use sesame, peanuts, and coconut alongside tamarind.",
+    "answer_source": "india_regional_hyderabadi_cuisine",
     "question_type": "comparative",
     "difficulty": "hard"
   },
   {
-    "query_id": "sa_009",
-    "query": "What is butter chicken and where did it originate?",
-    "answer": "Butter chicken is a curry made with chicken in a tomato and butter sauce, originating in Delhi, India.",
-    "answer_source": "wiki_butter_chicken",
-    "question_type": "factual",
-    "difficulty": "easy"
+    "query_id": "sa_016",
+    "query": "What distinguishes green cardamom from black cardamom in Indian cooking?",
+    "answer": "Green cardamom is small, pale green, and has a sweet, floral, slightly citrusy aroma. It is used in desserts, rice dishes, masala chai, and as part of garam masala, valued for its delicate, perfumed fragrance. Black cardamom is larger, dark brown to black, and has a completely different character — smoky, camphor-like, and pungent — derived from being dried over fire. It is used exclusively in savoury preparations such as biryani, meat curries, and spice blends, where it adds earthy depth rather than sweetness.",
+    "answer_source": "india_ingredient_cardamom",
+    "question_type": "comparative",
+    "difficulty": "medium"
   },
   {
-    "query_id": "sa_010",
+    "query_id": "sa_017",
+    "query": "How is dosa batter traditionally prepared?",
+    "answer": "Traditional dosa batter is made by soaking rice and urad dal (black gram) separately for several hours, then grinding them to a smooth batter and combining them. The mixed batter is left to ferment overnight at room temperature, during which naturally occurring lactic acid bacteria leaven it and develop a slightly sour flavour. The fermented batter is then spread thin on a hot greased griddle in a circular motion and cooked until the edges lift and the surface is golden and crispy.",
+    "answer_source": "india_dish_dosa",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_018",
     "query": "How is tandoori chicken traditionally prepared?",
-    "answer": "Tandoori chicken is marinated in yogurt and spices and cooked in a tandoor oven at high heat.",
-    "answer_source": "wiki_tandoori_chicken",
+    "answer": "Tandoori chicken is prepared by marinating chicken pieces in a mixture of yoghurt, Kashmiri red chilli, garam masala, ginger, garlic, cumin, coriander, and lemon juice, typically overnight. The marinated chicken is then cooked in a tandoor clay oven that reaches temperatures of 300–480°C, far hotter than a conventional oven. The intense heat produces a charred, smoky exterior and the characteristic caramelised crust while keeping the interior moist. It is served with lemon wedges, raw onion, and mint chutney.",
+    "answer_source": "india_dish_tandoori_chicken",
     "question_type": "procedural",
     "difficulty": "easy"
   },
   {
-    "query_id": "sa_011",
-    "query": "What is dal and why is it important in South Asian cuisine?",
-    "answer": "Dal refers to split pulses and dishes made from them, and is an important protein source in vegetarian diets.",
-    "answer_source": "wiki_dal",
+    "query_id": "sa_019",
+    "query": "What is the bhuna technique in Indian cooking?",
+    "answer": "Bhuna is a slow-cooking technique in which onions, ginger, garlic, and spices are fried in oil over medium heat with constant stirring until all moisture evaporates and the mixture reduces to a thick, concentrated paste. The process is complete when the oil visibly separates and pools around the edges of the spice paste. Bhuna is the foundational technique for most North Indian and Pakistani meat curries — only when the bhuna is properly done is the main protein added. A dish cooked entirely by this method, with minimal gravy, is called a bhuna preparation.",
+    "answer_source": "india_technique_bhuna",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_020",
+    "query": "How is sambar prepared in South Indian cuisine?",
+    "answer": "Sambar is prepared by cooking split pigeon peas (toor dal) until completely soft, then combining them with a tamarind-water extract and a selection of vegetables such as drumstick, aubergine, shallots, or tomato. The stew is seasoned with sambar powder — a roasted spice blend of coriander, cumin, dried chillies, curry leaves, and other spices. It is finished with a tadka of mustard seeds, dried red chillies, and curry leaves fried in oil and poured over the stew. Sambar is eaten with idli, dosa, rice, and vada.",
+    "answer_source": "india_dish_sambar",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_021",
+    "query": "What are the culinary uses of turmeric in Indian cooking?",
+    "answer": "Turmeric is used in virtually every savoury dish in Indian cooking, primarily as a colouring agent (giving the characteristic golden-yellow hue to curries, rice dishes, and lentils), as a mild earthy-bitter flavouring, and as a preservative and antimicrobial agent in marinades and pickles. It is added early in cooking, usually after onions and before other spices, as its colour and flavour need time to bloom. It is also used in golden milk (haldi doodh) and has longstanding use in Ayurvedic medicine for its anti-inflammatory properties.",
+    "answer_source": "india_ingredient_turmeric",
+    "question_type": "ingredient",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_022",
+    "query": "What is atta and how is it different from maida?",
+    "answer": "Atta is whole-wheat flour ground from durum wheat, retaining the bran and germ, producing a golden-beige flour with a slightly nutty flavour and high gluten content that makes it ideal for flatbreads. Maida is highly refined white flour from which the bran and germ have been removed, producing a finer, whiter flour. Atta is used for everyday flatbreads (roti, chapati, paratha) while maida is used for puri, bhatura, naan, and pastry-based preparations like samosa wrappers where a lighter, more elastic dough is needed.",
+    "answer_source": "india_ingredient_atta",
+    "question_type": "ingredient",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_023",
+    "query": "What is the role of curry leaves in Indian cuisine and where are they most commonly used?",
+    "answer": "Curry leaves (Murraya koenigii) are fresh aromatic leaves with a warm, herbal, slightly citrusy fragrance used almost exclusively in South Indian, Sri Lankan, and Maharashtrian cooking. They are added to hot oil in the tempering step where they sizzle and crisp, releasing their essential oils into the cooking fat. They appear in virtually every South Indian preparation — sambar, rasam, chutneys, curd rice, and vegetable stir-fries. Unlike bay leaves, they are eaten in the dish rather than removed.",
+    "answer_source": "india_ingredient_curry_leaves",
+    "question_type": "ingredient",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_024",
+    "query": "What are the defining characteristics of Gujarati cuisine?",
+    "answer": "Gujarati cuisine is predominantly vegetarian, reflecting the region's strong Jain and Vaishnavite Hindu traditions. Its most distinctive feature is the sweet-sour-spicy flavour balance in which a small amount of sugar or jaggery is added to virtually every savoury dish. The Gujarati thali is one of India's most extensive, featuring rotli, dal or kadhi, rice, multiple vegetable dishes, papad, pickle, and a sweet. The snack culture (farsan) is particularly celebrated, with dhokla, khakhra, thepla, and khandvi among the most famous preparations.",
+    "answer_source": "india_regional_gujarati_cuisine",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_025",
+    "query": "What makes Goan cuisine distinct from other Indian coastal cuisines?",
+    "answer": "Goan cuisine is distinct primarily because of its 451-year Portuguese colonial history, which introduced vinegar as a marinade and preservation agent, bread, and uninhibited use of pork and beef — making Goa the only Indian state where pork curry is a fundamental everyday preparation. Its most iconic dishes include vindaloo (from the Portuguese vinha d'alhos — vinegar and garlic marinade), sorpotel (pork offal in vinegar sauce), and Goan fish curry made with coconut milk and kokum. Goan Christian and Hindu culinary traditions also diverge significantly.",
+    "answer_source": "india_regional_goan_cuisine",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_026",
+    "query": "What is the wazwan and why is it culturally significant in Kashmir?",
+    "answer": "The wazwan is an elaborate multi-course ceremonial feast of up to 36 courses that is the defining institution of Kashmiri food culture, prepared exclusively for weddings and major celebrations by specialist chefs called wazas. It is considered one of South Asia's grandest culinary traditions and a marker of Kashmiri identity and hospitality. Signature dishes served at wazwan include rogan josh, gushtaba (minced meat dumplings in yoghurt), yakhni, and tabak maaz (fried ribs). The preparation of wazwan is treated as an art form passed down through generations of waza families.",
+    "answer_source": "india_regional_kashmiri_cuisine",
+    "question_type": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_027",
+    "query": "What is chaat and what flavour principles define it?",
+    "answer": "Chaat is a broad family of fried dough snack preparations originating in Uttar Pradesh, now ubiquitous across South Asia as street food. All chaats are defined by the simultaneous presence of multiple contrasting flavours — salty, sour, sweet, and spicy — and contrasting textures — crispy fried elements, soft fillings, and cool yoghurt. Common elements include tamarind chutney, green coriander-mint chutney, chaat masala, yoghurt, sev (crunchy chickpea noodles), and various fried dough bases. Famous varieties include panipuri, bhel puri, sev puri, and aloo tikki chaat.",
+    "answer_source": "india_dish_chaat",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_028",
+    "query": "What is nihari and what is the significance of the word's origin?",
+    "answer": "Nihari is a slow-cooked meat stew made from bone-in beef shank simmered for many hours with aromatic spices and thickened with whole wheat flour. The word derives from the Arabic nahar meaning 'morning', reflecting the dish's original purpose as a dawn breakfast eaten by Mughal nawabs and workers after Fajr prayer, having cooked slowly overnight. It was brought to Karachi by Urdu-speaking Muslim migrants from Delhi after the 1947 partition and became one of Pakistan's most iconic dishes.",
+    "answer_source": "pakistan_dish_nihari",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_029",
+    "query": "What is haleem and what is its historical origin?",
+    "answer": "Haleem is a thick, slow-cooked porridge-like stew made from cracked wheat, barley, split lentils, and meat (typically beef or mutton), cooked for many hours until all ingredients break down into a smooth, fibrous mass. It traces its origin to the Arab dish harees, a wheat and meat porridge that spread through the Muslim world during the Islamic caliphates and reached South Asia during the Delhi Sultanate. In Pakistan it is particularly associated with the month of Muharram, when it is prepared communally and distributed as charitable food.",
+    "answer_source": "pakistan_dish_haleem",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_030",
+    "query": "What is chapli kebab and what ingredients make it distinctive?",
+    "answer": "Chapli kebab is a flat, disc-shaped minced meat patty originating from Peshawar in Khyber Pakhtunkhwa and is a signature dish of Pashtun cuisine. The name comes from the Pashto word chaprikh meaning 'flat'. What makes it distinctive are its key ingredients: coarsely ground beef mince combined with dried pomegranate seeds (anardana), fresh tomato slices pressed into the patty, coarsely ground coriander, cumin, green chilli, and onion. It is pan-fried in ghee or tallow until deep golden and served with naan and raita.",
+    "answer_source": "pakistan_dish_chapli_kebab",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_031",
+    "query": "What is sajji and how is it prepared?",
+    "answer": "Sajji is a traditional Balochi whole-roasted meat dish — a whole lamb or chicken rubbed with salt and slow-roasted on a long iron spit over a smouldering wood fire for several hours. In the most traditional Baloch style, the seasoning is almost nothing beyond salt, allowing the quality of the meat and woodsmoke to define the flavour entirely. The cavity may be stuffed with seasoned rice that cooks in the rendered fat and juices. It is considered the signature dish and a symbol of Baloch cultural identity and hospitality.",
+    "answer_source": "pakistan_dish_sajji",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_032",
+    "query": "What is karahi and what distinguishes it from a standard curry?",
+    "answer": "Karahi is both the name of a deep wok-like cooking vessel and the dish prepared in it. It differs from a standard curry in technique and base: rather than building a long-cooked onion masala base, authentic karahi is cooked at high heat directly with fresh tomatoes, ginger, green chillies, and minimal spicing. The intense heat caramelises the tomatoes rapidly into a thick, coating sauce. In the traditional KPK shinwari style, it uses only tomatoes, green chillies, salt, and rendered animal fat — no onion, no cream.",
+    "answer_source": "pakistan_dish_karahi",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_033",
+    "query": "How does Sindhi cuisine differ from Punjabi cuisine in Pakistan?",
+    "answer": "Sindhi cuisine is generally considered the spiciest in Pakistan, with bold use of dried red chillies, tamarind for sourness, and a tangy-sour flavour profile that differs sharply from Punjabi cooking. Sindhi cuisine is rice-dominant rather than wheat-dominant, features the distinctive Sindhi biryani (with potatoes and dried plums), and has stronger seafood traditions due to its coastline on the Arabian Sea. Punjabi cuisine is richer in dairy (ghee, butter, cream), more wheat-based, and associated with heartier, milder gravies.",
+    "answer_source": "pakistan_regional_sindhi_cuisine",
+    "question_type": "comparative",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_034",
+    "query": "What is saag and how is it traditionally served in Pakistan?",
+    "answer": "Saag is a traditional winter dish of slow-cooked leafy greens, most commonly sarson (mustard greens) with spinach, reduced in ghee until deeply flavoured and slightly sweet-savoury. In Pakistan it is most closely associated with Punjab, where sarson da saag served with makki di roti (corn flatbread) and a generous pat of fresh white butter is the quintessential cold-weather meal. Saag is also cooked with meat (saag gosht) in which lamb or beef is simmered together with the greens.",
+    "answer_source": "pakistan_dish_saag",
     "question_type": "factual",
     "difficulty": "easy"
   },
   {
-    "query_id": "sa_012",
-    "query": "What is the difference between biryani and pilaf?",
-    "answer": "Biryani is a layered rice dish with spiced meat, while pilaf is a simpler rice dish cooked in broth.",
-    "answer_source": "wiki_biryani",
+    "query_id": "sa_035",
+    "query": "What role does wheat play in Pakistani cuisine?",
+    "answer": "Wheat is the single most important agricultural crop and dietary staple in Pakistan, providing approximately 70–80% of daily caloric intake. It is consumed primarily as flatbreads — roti, naan, paratha, chapati, puri, and sheermal — which accompany virtually every meal. In Pakistan, bread is not merely a side dish but a functional eating utensil used to scoop curries and vegetables. Atta (whole wheat flour) is also used to thicken nihari. Pakistan is one of the world's top wheat producers, with cultivation concentrated in Punjab and Sindh.",
+    "answer_source": "pakistan_ingredient_wheat",
+    "question_type": "ingredient",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_036",
+    "query": "What is Pashtun cuisine known for and what is its distinctive cooking philosophy?",
+    "answer": "Pashtun cuisine from Khyber Pakhtunkhwa is characterised by restraint in spicing — flavour comes from the quality of meat and simple aromatics rather than complex masala blends. Salt, fresh tomatoes, and ginger are often the only seasonings. The region is famous for chapli kebab, shinwari karahi (made with just tomatoes, chillies, salt, and fat), and tika. Kabuli palaw (rice with caramelised carrots, raisins, and lamb) reflects Afghan cultural influence. Qehwa — green tea with cardamom — is the hospitality beverage.",
+    "answer_source": "pakistan_regional_pashtun_cuisine",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_037",
+    "query": "What is paya and why is it significant in Pakistani food culture?",
+    "answer": "Paya is a slow-cooked stew made from the trotters (feet and lower legs) of goat, cow, or sheep, simmered for six to twelve hours until the collagen and connective tissue break down into a silky, gelatinous broth. It is culturally significant as one of the most celebrated morning comfort foods in Pakistan — particularly in Lahore, Peshawar, and Karachi — associated with weekends, cold mornings, and the slow-food tradition of all-night cooking. Its thick, sticky, unctuous quality has made it a symbol of patience and generosity in Pakistani cooking.",
+    "answer_source": "pakistan_dish_paya",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_038",
+    "query": "How does Pakistani biryani differ from Indian biryani traditions?",
+    "answer": "Pakistani biryani is generally considered bolder, more intensely spiced, and higher in oil content than most Indian biryanis. Sindhi biryani, the most recognised Pakistani style, includes potatoes and dried plums (aloo bukhara) for a tangy-sour quality unique among biryani traditions. Lahori biryani emphasises heavily caramelised onions and a robust spice blend. Compared to the more delicate Lucknowi biryani or the fragrant Kolkata version, Pakistani biryanis tend to be more assertive in flavour and heat.",
+    "answer_source": "pakistan_dish_biryani",
+    "question_type": "comparative",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_039",
+    "query": "What is the karahi stir-cooking technique and how does it produce its characteristic result?",
+    "answer": "Karahi cooking involves preparing meat directly in a thick, deep wok (karahi) at high heat with fresh tomatoes, ginger-garlic paste, and green chillies rather than a pre-cooked onion masala base. The high heat rapidly reduces and caramelises the tomatoes into a thick, coating sauce that clings to the meat pieces. The finished karahi has a dry or semi-dry sauce characteristic distinct from thin curry gravy. It is brought to the table still sizzling and is eaten directly from the vessel with naan.",
+    "answer_source": "pakistan_technique_karahi_stir_cooking",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_040",
+    "query": "What is the significance of barbecuing and grilling in Pakistani food culture?",
+    "answer": "Barbecuing and grilling are central culinary traditions in Pakistan, particularly in Khyber Pakhtunkhwa and Punjab. The two formats are tandoor cooking (where meats and breads are cooked in a cylindrical clay oven at extremely high temperatures) and open-fire or charcoal grilling (for chapli kebab, tika, boti, and seekh kebab). Marinades almost always contain yoghurt as a tenderiser. In Balochistan, the sajji tradition of whole-animal spit-roasting over open wood fire represents an ancient form of this technique.",
+    "answer_source": "pakistan_technique_barbecuing___grilling",
+    "question_type": "technique",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_041",
+    "query": "What is pulao and how does it differ from biryani?",
+    "answer": "Pulao is a rice dish in which basmati rice is cooked directly in a seasoned meat broth (yakhni) rather than water, producing aromatic, flavourful rice where every grain stays separate and is infused with the essence of the stock. It differs from biryani in that rice and meat are cooked together in one pot from the start rather than being layered separately. Pulao is more restrained in spicing than biryani — its flavour comes from the quality of the broth rather than spice intensity — and is considered a more everyday, homestyle preparation.",
+    "answer_source": "pakistan_dish_pulao",
     "question_type": "comparative",
     "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_042",
+    "query": "What is kottu roti and how is it made?",
+    "answer": "Kottu roti is Sri Lanka's most iconic street food — a stir-fry made by chopping godhamba roti (thin wheat flatbread) into small strips on a hot iron griddle using two heavy metal blades, mixing them with vegetables, scrambled egg, curry gravy, and optionally meat or cheese. The name comes from the Tamil koththu meaning 'to chop'. The distinctive loud, metallic clanging sound of the blades on the griddle is one of the most recognisable sounds of Sri Lankan street food stalls.",
+    "answer_source": "sri_lanka_dish_kottu",
+    "question_type": "procedural",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_043",
+    "query": "What are hoppers and what makes them technically challenging to prepare?",
+    "answer": "Hoppers (appa) are bowl-shaped pancakes made from a batter of fermented rice flour and coconut milk, cooked in a small round wok-shaped pan called an appa thattiya. What makes them technically challenging is the swirling motion required: immediately after pouring the batter, the cook must rapidly rotate the pan in circular motions so the batter climbs the sides thinly while the thicker excess settles in the base. The lid is then sealed and the hopper steams-and-fries simultaneously. A well-made hopper has an extremely thin, crispy, lacy outer rim and a soft spongy centre.",
+    "answer_source": "sri_lanka_dish_hoppers",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_044",
+    "query": "What is kiribath and what occasions is it associated with?",
+    "answer": "Kiribath (meaning 'milk rice') is a Sri Lankan preparation in which rice is cooked in coconut milk rather than water until the grains become soft, creamy, and slightly sticky. It is pressed into a flat layer and cut into diamond or square shapes before serving with lunu miris (chilli sambol). Kiribath is deeply embedded in Sinhalese ceremonial life — it is eaten at the Sinhala and Tamil New Year, on the first day of each month, at birthdays, weddings, and housewarming ceremonies. It symbolises prosperity and new beginnings.",
+    "answer_source": "sri_lanka_dish_kiribath",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_045",
+    "query": "What is lamprais and what colonial influence shaped it?",
+    "answer": "Lamprais is a Sri Lankan dish created by the Dutch Burgher community — a mixed Dutch, Portuguese Burgher, and Sri Lankan ethnic group — during the Dutch colonial period (1658–1796). Its name derives from the Dutch lomprijst meaning 'a lump of rice'. It consists of stock-cooked rice, a mixed meat curry, frikkadels (Dutch-style meatballs), blachan (shrimp paste), eggplant curry, and seeni sambol, all wrapped in a banana leaf and baked. The banana-leaf baking merges all flavours and gives the rice a distinctive fragrant quality.",
+    "answer_source": "sri_lanka_dish_lamprais",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_046",
+    "query": "What is goraka and what role does it play in Sri Lankan cuisine?",
+    "answer": "Goraka (Garcinia cambogia, also known as Malabar tamarind) is a tropical fruit native to South and Southeast Asia that is dried and smoked until hard and jet-black, then used as an intensely sour flavouring agent in Sri Lankan cooking. It has no precise equivalent in any other South Asian cuisine. Its most famous application is in fish ambul thiyal, where it creates the dish's defining dry, concentrated sour character. Goraka is more intensely sour and more resinous than tamarind and cannot be substituted.",
+    "answer_source": "sri_lanka_ingredient_goraka",
+    "question_type": "ingredient",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_047",
+    "query": "What is Maldive fish and why is it central to Sri Lankan cooking?",
+    "answer": "Maldive fish is sun-dried, smoked, and cured skipjack tuna produced in the Maldives, exported to Sri Lanka where it has been a fundamental flavouring ingredient for centuries. It provides a deep, intensely savoury, umami-rich backbone to a vast range of preparations. It is used in pol sambol (ground into the fresh coconut sambol), in dhal and vegetable curries as a background flavour, and in soups. It is arguably the single most important flavour base in Sri Lankan cuisine after coconut milk.",
+    "answer_source": "sri_lanka_ingredient_maldive_fish",
+    "question_type": "ingredient",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_048",
+    "query": "What is sambol in Sri Lankan cuisine and how is it prepared?",
+    "answer": "Sambol is a category of raw or minimally cooked condiments that accompany virtually every Sri Lankan meal. They are made by grinding or mixing intensely flavoured raw ingredients into rough, strongly seasoned pastes. The most important is pol sambol — freshly grated coconut combined with ground dried red chillies, red onion, Maldive fish flakes, lime juice, and salt, traditionally ground on a miris gala stone until combined. Lunu miris is a fierier version ground from dried chillies, onion, and Maldive fish. Seeni sambol is cooked — a caramelised onion relish with Maldive fish.",
+    "answer_source": "sri_lanka_technique_sambol_preparation",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_049",
+    "query": "How does Sri Lankan cuisine differ from South Indian cuisine?",
+    "answer": "Sri Lankan cuisine shares many ingredients and dishes with South Indian cooking but is distinguished by several factors: it uses darker, more robustly roasted curry powders; it features unique ingredients like goraka (a souring agent with no South Indian equivalent), Maldive fish as a flavour base, and Ceylon cinnamon (milder and sweeter than the cassia cinnamon used in India). Sri Lankan food is generally considered spicier than South Indian food. It also has distinct Dutch Burgher and Malay influences absent from mainland South Indian cuisine.",
+    "answer_source": "sri_lanka_regional_sri_lankan_cuisine",
+    "question_type": "comparative",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_050",
+    "query": "What is fish ambul thiyal and what makes it distinctive among Sri Lankan dishes?",
+    "answer": "Fish ambul thiyal (meaning 'sour fish curry') is a dry fish preparation from southern Sri Lanka made with tuna chunks cooked in a concentrated paste of goraka, black pepper, garlic, turmeric, and curry leaves until all liquid evaporates and the fish is coated in a dark, intensely sour and peppery crust. Unlike most Sri Lankan fish curries it contains no coconut milk and is completely dry-cooked. The high concentration of goraka and pepper acts as a natural preservative, meaning the dish keeps without refrigeration.",
+    "answer_source": "sri_lanka_dish_fish_ambul_thiyal",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_051",
+    "query": "What is Ceylon cinnamon and why is it considered superior to cassia?",
+    "answer": "Ceylon cinnamon (Cinnamomum verum) is the original 'true cinnamon' and Sri Lanka has been its primary global source for thousands of years. It is considered superior to cassia (the cinnamon sold in most supermarkets) because it has a far more delicate, mildly sweet, slightly citrusy and floral flavour; its quills are formed from multiple thin papery layers rolled together rather than a single thick bark; and it has significantly lower coumarin content, making it safer for regular consumption. Ceylon cinnamon commands a significant premium in global markets.",
+    "answer_source": "sri_lanka_ingredient_cinnamon",
+    "question_type": "comparative",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_052",
+    "query": "What is the role of coconut milk in Sri Lankan cooking?",
+    "answer": "Coconut milk is the single most important flavouring and cooking medium in Sri Lankan cuisine, present in a greater proportion of dishes than any other ingredient. It is extracted from grated mature coconut flesh in two forms: thick coconut milk (first press) used to enrich and finish curries, and thin coconut milk (second press) used as the main cooking liquid throughout cooking. Nearly all Sri Lankan curries — fish, meat, vegetable, and lentil — are cooked in thin coconut milk and finished with thick coconut milk. It also forms the base of kiribath, hoppers, and string hoppers.",
+    "answer_source": "sri_lanka_ingredient_coconut_milk",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_053",
+    "query": "What is kool and which community's cuisine does it represent?",
+    "answer": "Kool is a complex seafood broth from the Jaffna region of northern Sri Lanka and is a signature dish of Sri Lankan Tamil cuisine. It combines crab, whole small fish, cuttlefish, prawns, and crayfish with long beans, jak seeds, manioc, spinach, and tamarind, all thickened with palmyra root flour — a flour derived from the roots of the palmyra palm that is unique to the Jaffna region and gives the broth its distinctive viscous, gelatinous body. Kool is strongly associated with Jaffna Tamil cultural identity.",
+    "answer_source": "sri_lanka_dish_kool",
+    "question_type": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_054",
+    "query": "What is the difference between hoppers and string hoppers?",
+    "answer": "Despite sharing similar names and both using rice flour and coconut milk, hoppers and string hoppers are entirely different preparations. Hoppers (appa) are bowl-shaped pancakes made from fermented batter swirled in a small wok and cooked until crispy-edged. String hoppers (idiyappam) are delicate steamed noodle nests made by pressing rice flour dough through a fine-holed press onto small wicker mats and steaming them — producing light, airy, neutral-flavoured nests of thin rice vermicelli that absorb accompaniments like pol sambol and dhal.",
+    "answer_source": "sri_lanka_dish_string_hoppers",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_055",
+    "query": "How is the fermentation of hopper batter carried out and what effect does it have?",
+    "answer": "Traditional hopper batter fermentation uses palm toddy — naturally fermented coconut palm sap containing wild yeasts and lactic acid bacteria — mixed into a batter of rice flour, coconut milk, sugar, and salt, then left at room temperature for 6–12 hours or overnight. The wild yeasts produce carbon dioxide (leavening) and alcohol, while lactic acid bacteria produce lactic acid (souring). The result is a batter with a pleasant sour tang and an aerated consistency that produces a porous, spongy centre and crispy edges when cooked. Commercial yeast is widely used as a modern substitute.",
+    "answer_source": "sri_lanka_technique_fermenting_batter",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_056",
+    "query": "What is ilish curry and why is the hilsa fish culturally significant in Bangladesh?",
+    "answer": "Ilish curry (shorshe ilish) is considered the national dish of Bangladesh, made from hilsa fish cooked in a sharp, pungent mustard gravy. The hilsa (Tenualosa ilisha) is Bangladesh's national fish and accounts for around 12% of the country's total fish production. It holds deep cultural significance — eaten at Pohela Boishakh (Bengali New Year) as panta ilish, given as wedding gifts, and associated with Bengali identity through the saying 'mache bhate Bangali' (fish and rice make a Bengali).",
+    "answer_source": "bangladesh_dish_ilish_curry",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_057",
+    "query": "What is bhuna khichuri and what distinguishes it from regular khichuri?",
+    "answer": "Bhuna khichuri is a dry-textured, richly spiced rice and lentil dish in which the lentils are first dry-roasted until fragrant and the rice and lentils are then fried in a spiced masala base before water is added. The word 'bhuna' refers to this dry-frying method. It differs from regular (patla) khichuri, which is thinner and more porridge-like. Bhuna khichuri has a drier, grittier, more intensely flavoured character and is associated with rainy days and comfort eating in Bangladesh and West Bengal.",
+    "answer_source": "bangladesh_dish_bhuna_khichuri",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_058",
+    "query": "What is panta bhat and what cultural significance does it hold in Bangladesh?",
+    "answer": "Panta bhat is fermented rice — cooked rice soaked in water overnight until mildly fermented — eaten cold in the morning with salt, raw onion, green chillies, and mustard oil. It has deep cultural significance as a symbol of Bangladeshi rural identity and became a national symbol on Pohela Boishakh (Bengali New Year, 14 April), when people of all economic backgrounds eat panta bhat with fried hilsa fish as an act of solidarity with the nation's agricultural roots.",
+    "answer_source": "bangladesh_dish_panta_bhat",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_059",
+    "query": "What is bhorta and what role does mustard oil play in it?",
+    "answer": "Bhorta is a category of mashed preparations central to Bangladeshi cuisine in which a main ingredient (potato, aubergine, dried fish, or lentils) is boiled or roasted and then mashed with raw mustard oil, finely chopped raw onion, green chillies, and salt. Mustard oil is inseparable from bhorta's character — its sharp, pungent quality cannot be replicated by any other fat, and using refined vegetable oil produces a flat, inauthentic result. Bhorta is eaten as a side dish alongside plain rice.",
+    "answer_source": "bangladesh_dish_bhorta",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_060",
+    "query": "What is panch phoron and which cuisines use it?",
+    "answer": "Panch phoron (meaning 'five tempering spices') is a whole-spice blend of equal parts fenugreek seeds, cumin seeds, nigella seeds (kalonji), fennel seeds, and black mustard seeds (sometimes replaced with radhuni/wild celery seeds). It is always used whole, added to hot oil where the seeds pop and release a complex, multi-layered fragrance. It is used in the cuisines of Bangladesh, West Bengal, Assam, Orissa, and Bihar as the defining tempering spice blend for dals, vegetables, chutneys, and fish curries.",
+    "answer_source": "bangladesh_ingredient_panch_phoron",
+    "question_type": "ingredient",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_061",
+    "query": "What is the bhuna technique and why is it considered the foundation of Bangladeshi curry cooking?",
+    "answer": "Bhuna is the technique of slowly sautéing onions, ginger, garlic, and spices in oil with constant stirring until all moisture evaporates and the mixture reduces to a thick, concentrated paste, with oil visibly separating around the edges — the diagnostic sign of a completed bhuna. It is considered the foundation of Bangladeshi and Bengali curry cooking because the depth of flavour in any finished curry is entirely dependent on how thoroughly and patiently the bhuna is carried out. Shortcuts produce flat, raw-tasting results.",
+    "answer_source": "bangladesh_technique_bhuna_slow_sauté___reduction",
+    "question_type": "technique",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_062",
+    "query": "What is mustard oil and why is it important in Bengali and Bangladeshi cooking?",
+    "answer": "Mustard oil is pressed from mustard seeds and has a sharp, pungent, intensely aromatic flavour that defines the character of Bengali and Bangladeshi cuisine. It is used as both a cooking medium and a raw finishing ingredient — many bhortas and fish preparations are finished with a drizzle of raw mustard oil that provides their characteristic pungency. It has a high smoke point suited to high-heat cooking. Before refined vegetable oils became available, mustard oil was the sole edible fat in Bengal and remains culturally essential in authentic preparations.",
+    "answer_source": "bangladesh_ingredient_mustard_oil",
+    "question_type": "ingredient",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_063",
+    "query": "What is bakarkhani and what is its connection to Old Dhaka?",
+    "answer": "Bakarkhani is a thick, flaky, crispy flatbread from Mughlai cuisine made from refined wheat flour enriched with milk, ghee, sugar, and cardamom, baked in a tandoor until lightly golden with a characteristic perforated surface. It is one of the most iconic speciality foods of Old Dhaka, where specialist bakers (bakarkhaniwallas) have prepared it for centuries in areas like Chowk Bazaar. It is traditionally served with tea and is popular during Ramadan for sehri and iftar.",
+    "answer_source": "bangladesh_dish_bakarkhani",
+    "question_type": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_064",
+    "query": "What is the hilsa fish and why is it so prized?",
+    "answer": "The hilsa (Tenualosa ilisha), known in Bengali as ilish, is a species of oily fish in the herring family that is Bangladesh's national fish. It is prized for its rich, complex, buttery flavour and high omega-3 content. Bangladesh accounts for approximately 97% of the world's total hilsa catch. Fish caught during the monsoon upstream migration in the Padma River are considered finest. The fish is celebrated for the fact that it can be cooked in over 50 ways and has deep spiritual and cultural significance for Bengali identity.",
+    "answer_source": "bangladesh_ingredient_hilsa",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_065",
+    "query": "What is kacchi biryani and how is it prepared?",
+    "answer": "Kacchi biryani is Bangladesh's most celebrated biryani — made by layering raw, marinated mutton or beef directly with parboiled basmati rice in a sealed pot (dum) so that both cook simultaneously. The 'kacchi' (raw) method demands precise timing since the meat must cook through at exactly the same time the rice reaches perfect texture. The meat is marinated overnight in yoghurt, raw papaya paste, fried onion paste, dried plums, and spices. It is the non-negotiable centrepiece of Bangladeshi weddings and Eid celebrations.",
+    "answer_source": "bangladesh_dish_kacchi_biryani",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_066",
+    "query": "What is dal bhat tarkari and why is it considered Nepal's national meal?",
+    "answer": "Dal bhat tarkari is a complete daily meal of dal (lentil or legume soup), bhat (steamed rice or grain), and tarkari (spiced vegetable or meat stew), eaten twice a day by the vast majority of the Nepali population. It is considered Nepal's national meal because it is consumed universally across all regions, castes, and economic levels. In Nepal, offering second helpings without being asked is customary hospitality, and a host's generosity is measured by how freely they refill a guest's plate.",
+    "answer_source": "nepal_dish_dal_bhat_tarkari",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_067",
+    "query": "What is the origin of momo and how has it evolved in Nepal?",
+    "answer": "The precise origin of momo in Nepal is debated — the most common accounts credit either Newari traders who brought dumpling techniques from Lhasa, Tibet, or Tibetan settlers who migrated into Nepal. In Newari, the word 'mome' means cooking by steaming, supporting the Newari connection. Originally filled with minced buffalo meat, momo has evolved to include chicken, goat, pork, vegetable, and even cheese fillings. It has spread from Nepal to Sikkim, Darjeeling, Bhutan, and globally through the Nepali diaspora.",
+    "answer_source": "nepal_dish_momo",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_068",
+    "query": "What is gundruk and how is it made?",
+    "answer": "Gundruk is a traditional Nepali fermented leafy green vegetable preparation made from mustard greens, radish leaves, or cauliflower leaves. The leaves are first wilted in the sun, then tightly packed into sealed containers, lightly moistened, and left to lacto-ferment for one to two weeks. After fermentation, the leaves are sun-dried for long-term storage. The result is a sour, pungent, intensely flavoured condiment eaten as achar (pickle) alongside dal bhat, in soups, or as a cooking ingredient. It has historical importance as a winter nutrition source in the hills.",
+    "answer_source": "nepal_dish_gundruk",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_069",
+    "query": "What is timur pepper and what makes it distinctive as a spice?",
+    "answer": "Timur (Zanthoxylum armatum) is a Himalayan Sichuan pepper native to Nepal, and one of the most distinctive flavour elements of Nepali and Newari cooking. Its most characteristic quality is simultaneous pungency, intense citrus fragrance, and a numbing, tingling sensation on the tongue and lips caused by compounds called hydroxy-alpha-sanshool. It is used in momo dipping sauce, in the dry spice mixture timur ko chhop, in Newari pickles, and in various meat marinades. Its citrusy numbing quality has no equivalent in other South Asian spices.",
+    "answer_source": "nepal_ingredient_timur_pepper",
+    "question_type": "ingredient",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_070",
+    "query": "What is sel roti and when is it traditionally made?",
+    "answer": "Sel roti is a traditional Nepali ring-shaped fried bread made from a batter of ground rice flour, sugar, and water, deep-fried in oil until golden and crispy outside with a soft, slightly chewy interior. It is primarily a festival and ceremonial bread prepared in large quantities during Dashain, Tihar, weddings, and the Nepali New Year. Its distinctive ring shape is produced by pouring the runny batter in a circle directly into hot oil. Sel roti requires skill in achieving the even ring shape and correct crisp texture.",
+    "answer_source": "nepal_dish_sel_roti",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_071",
+    "query": "What is Newa (Newari) cuisine and what makes it distinct within Nepal?",
+    "answer": "Newa cuisine is the elaborate culinary tradition of the Newar people, the indigenous inhabitants of the Kathmandu Valley, considered one of the oldest and most sophisticated food cultures in South Asia. It is distinguished by its use of buffalo meat (virtually every part of the animal in distinct preparations), a structured feast tradition, and deep integration of food with religious and festival life. The most iconic Newari food experience is the samay baji platter — flattened rice, smoked buffalo, fried soybeans, spiced potato, and roasted black soybeans — eaten with local spirits.",
+    "answer_source": "nepal_regional_newa_cuisine",
+    "question_type": "factual",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_072",
+    "query": "What is yomari and what festival is it associated with?",
+    "answer": "Yomari is a traditional Newari sweet steamed dumpling made from rice flour dough shaped into a distinctive teardrop or fish form, filled with chaku (traditional Newari jaggery or molasses) and sesame seeds. It is closely associated with the festival of Yomari Punhi, celebrated on the full moon day of Thinlaa (November/December) marking the end of the rice harvest. Families gather to make yomari communally, offering them to household deities and giving them as gifts. The shape is said to represent a grain of rice.",
+    "answer_source": "nepal_dish_yomari",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_073",
+    "query": "What is thukpa and where is it eaten in Nepal?",
+    "answer": "Thukpa is a hearty noodle soup of Tibetan origin widely adopted in Nepal, particularly in the Himalayan regions, Kathmandu, and along trekking routes. It is made from thick wheat noodles in a richly seasoned meat broth (usually yak, goat, lamb, or chicken) with vegetables, garlic, ginger, and dried chillies. It is valued on Nepal's high-altitude trekking routes for its warming, protein-rich, and easily digestible qualities. Nepalese thukpa tends to be spicier than its Tibetan predecessor. It is one of the most common dishes served in teahouse kitchens on the Everest and Annapurna circuits.",
+    "answer_source": "nepal_dish_thukpa",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_074",
+    "query": "What is dhindo and how is it prepared?",
+    "answer": "Dhindo is a traditional Nepali staple made from buckwheat, millet, maize, or barley flour cooked with boiling water and stirred continuously with a wooden paddle until it forms a dense, smooth, dough-like consistency. It requires 15–20 minutes of constant, vigorous stirring. The finished dhindo is served hot, eaten by pinching off small pieces and dipping them into accompaniments such as gundruk ko achar, saag, meat curry, or yoghurt. It was the primary staple of Nepal's hills before rice became widely available.",
+    "answer_source": "nepal_dish_dhindo",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_075",
+    "query": "How is the steaming technique for momos carried out and why is it important?",
+    "answer": "Momo steaming involves placing raw, filled dumplings in a tiered metal steamer (mucktoo) set over simmering water or broth and cooking with the lid on for 10–15 minutes. The trapped steam cooks the filling through and gives the wrapper its smooth, tender, slightly yielding texture without drying it out. The gentle indirect heat is what distinguishes steamed momos from pan-fried versions. Steaming over broth rather than plain water is believed by some cooks to impart additional flavour to the dumplings. The technique is culturally significant as a communal activity performed before festivals.",
+    "answer_source": "nepal_technique_steaming_dumplings",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_076",
+    "query": "What is Kabuli palaw and why is it Afghanistan's national dish?",
+    "answer": "Kabuli palaw (qabili palaw) is a festive pilaf of long-grain basmati rice cooked in spiced lamb broth and topped with caramelised julienned carrots, plump fried raisins, and slivered almonds or pistachios. It is Afghanistan's national dish because it represents the pinnacle of Afghan culinary skill — a perfectly cooked palaw requires technique, precision, and quality ingredients — and is the standard dish served at weddings, Eid celebrations, and important gatherings. It is always placed at the centre of the table with other dishes arranged around it.",
+    "answer_source": "afghanistan_dish_kabuli_palaw",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_077",
+    "query": "What is mantu and how is it typically served?",
+    "answer": "Mantu are large Afghan steamed dumplings filled with coarsely ground or minced lamb or beef mixed with finely chopped onion and spices. The distinctive element is their multi-layered presentation: the steamed dumplings are served over a base of cooked tomato-meat sauce, then covered generously with chakkah (thick strained yoghurt whipped with garlic and salt), and finished with dried mint and sometimes ground red chilli. This combination of warm dumpling, savoury meat sauce, and cool tangy yoghurt is characteristic of Afghan flavour layering. Mantu is a celebration dish prepared communally.",
+    "answer_source": "afghanistan_dish_mantu",
+    "question_type": "procedural",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_078",
+    "query": "What is ashak and how does it differ from mantu?",
+    "answer": "Ashak is an Afghan dumpling filled with gandana (leek or Afghan scallion) rather than meat, making it vegetarian at the dumpling level, though it is served with a meat sauce. Unlike mantu, which is steamed, ashak dumplings are boiled in salted water. Both share the same layered presentation of meat sauce and chakkah (garlic yoghurt), but ashak has a lighter, more herbaceous filling flavour and is particularly associated with Nowruz (Afghan New Year) and spring, when fresh gandana is available.",
+    "answer_source": "afghanistan_dish_ashak",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_079",
+    "query": "How is the Afghan pilaf cooking technique different from other rice traditions?",
+    "answer": "Afghan palaw uses a distinctive two-stage process: rice is first parboiled in heavily salted water until three-quarters cooked, then drained. Separately, meat is braised in spiced broth. The parboiled rice is returned to the pot over the meat, the meat broth is poured over, and the pot is tightly sealed for dum cooking over very low heat for 30–45 minutes. This technique produces rice that is fluffy, separate, and aromatic without direct contact with liquid. A prized side effect is the golden crust (zard-e-palaw) at the pot bottom, served as a delicacy.",
+    "answer_source": "afghanistan_technique_pilaf_cooking",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_080",
+    "query": "What is bolani and what are the most popular fillings?",
+    "answer": "Bolani is a traditional Afghan stuffed flatbread — thin rounds of unleavened wheat dough filled with a seasoned mixture, folded into a half-moon shape, and pan-fried in oil until golden and crispy. The most popular and classic filling is gandana bolani (filled with gandana — the Afghan leek or scallion — with green chilli and salt). Other popular versions use spiced mashed potato (katchalu bolani) or pumpkin (kadu bolani). It is served with chakkah (garlic yoghurt) and is eaten as a main meal, snack, or Ramadan iftar dish.",
+    "answer_source": "afghanistan_dish_bolani",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_081",
+    "query": "What is qorma in Afghan cuisine and how is it different from South Asian korma?",
+    "answer": "Afghan qorma is an onion- and tomato-based meat or vegetable stew built on a base of deeply caramelised onions that provide a characteristic sweet, slightly bitter backbone. Unlike South Asian korma, which is typically mild and cream-based with nuts and saffron, Afghan qorma is more assertively flavoured through the caramelisation depth of onions and often incorporates dried fruits such as apricots or prunes for a sweet-sour dimension. There are hundreds of qorma varieties in Afghan cooking and it forms the standard everyday accompaniment to plain rice.",
+    "answer_source": "afghanistan_dish_qorma",
+    "question_type": "comparative",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_082",
+    "query": "Why are dried fruits important in Afghan cuisine?",
+    "answer": "Dried fruits — particularly raisins, dried apricots, dried mulberries, dried plums, and pomegranate seeds — are among the most characteristic ingredients in Afghan cooking, used in both sweet and savoury preparations. They reflect Afghanistan's long tradition of fruit cultivation and the Persian culinary philosophy that incorporates fruit into savoury dishes. In Kabuli palaw, fried raisins and caramelised carrots create the defining sweet-savoury topping. Dried apricots and plums appear in qorma stews. Fresh dried fruits are also presented with nuts as part of the traditional Afghan hospitality ritual alongside green tea.",
+    "answer_source": "afghanistan_ingredient_dried_fruits",
+    "question_type": "ingredient",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_083",
+    "query": "What is aush and what role does it play in Afghan food culture?",
+    "answer": "Aush is a hearty Afghan noodle soup made from thick wheat noodles in a lamb or beef broth with lentils, chickpeas, spinach, leeks, and warming spices, finished with chakkah (garlic yoghurt), qoroot (sour dried whey sauce), crispy fried onions, and dried mint. It is one of the most culturally significant comfort foods in Afghan cuisine, associated with generosity and community — traditionally prepared in large quantities for funerals, religious occasions, and charitable distribution. Multiple regional variations exist. Aush belongs to a broader Central Asian tradition of thick noodle soups extending through Iran and Central Asia.",
+    "answer_source": "afghanistan_dish_aush",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_084",
+    "query": "What is ema datshi and why is it Bhutan's national dish?",
+    "answer": "Ema datshi (meaning 'chilli cheese' in Dzongkha) is a spicy stew of whole fresh or dried chilli peppers simmered with local datshi cheese, butter, onion, garlic, and tomatoes until the cheese melts into a thick creamy sauce. It is Bhutan's national dish because it is consumed at virtually every meal throughout the country, from humble farmhouse tables to restaurant menus, and because it embodies the Bhutanese culinary philosophy of treating chillies not as a spice but as the primary vegetable. Variations include kewa datshi (potato), shamu datshi (mushroom), and shakam datshi (dried beef).",
+    "answer_source": "bhutan_dish_ema_datshi",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_085",
+    "query": "How is the role of chilli peppers in Bhutanese cooking different from other South Asian cuisines?",
+    "answer": "In most South Asian cuisines, chilli peppers are used as a seasoning or spice to add heat to dishes. In Bhutanese cooking, chillies are treated as a primary vegetable and the main ingredient — eaten in large quantities as the central component of stews rather than as a flavouring. Bhutanese people consume chillies from infancy, and a meal without substantial chilli is considered incomplete. The national dish ema datshi consists almost entirely of chillies cooked in cheese sauce.",
+    "answer_source": "bhutan_ingredient_chili_peppers",
+    "question_type": "comparative",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_086",
+    "query": "What is phaksha paa and what does it reveal about Bhutanese food preservation traditions?",
+    "answer": "Phaksha paa is a Bhutanese pork dish of sliced pork (often pork belly or shoulder) stir-fried and simmered with dried red chillies, radishes, and vegetables. The dish often uses dried or cured pork (shakam) rather than fresh pork, revealing Bhutan's cold-mountain tradition of air-drying meat over winter for year-round use. The cold, dry Himalayan air provides ideal conditions for natural meat drying without salt or refrigeration. Dried meats are then used in datshi stews, reflecting a practical food preservation tradition central to highland communities.",
+    "answer_source": "bhutan_dish_phaksha_paa",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_087",
+    "query": "What is hoentay and how does it differ from momo?",
+    "answer": "Hoentay is a traditional Bhutanese dumpling from the Haa Valley, similar to momo but with a buckwheat flour wrapper rather than refined wheat flour. This gives hoentay a darker grey colour, nuttier flavour, and slightly denser, chewier texture. The filling typically combines spinach or turnip leaves with soft local datshi cheese. Momo uses plain white wheat flour dough and can have meat or vegetable fillings. Both are steamed or fried and served with chilli sauce.",
+    "answer_source": "bhutan_dish_hoentay",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_088",
+    "query": "What is Bhutanese red rice and what makes it nutritionally distinctive?",
+    "answer": "Bhutanese red rice is a semi-milled, medium-grain variety grown in the terraced fields of the Paro Valley at approximately 2,400–2,600 metres — the only commercially grown rice at such high altitude. It retains its bran layer, giving it a pinkish-red colour and a nutty, earthy flavour similar to brown rice. Nutritionally it is richer in fibre, vitamins, and minerals than white rice and has a lower glycaemic index. It is served at virtually every meal in Bhutan alongside ema datshi and other dishes.",
+    "answer_source": "bhutan_ingredient_red_rice",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_089",
+    "query": "What role do yak products play in Bhutanese highland cuisine?",
+    "answer": "Yak products — particularly butter, cheese (datshi), and dried meat — are among the most culturally important foods in Bhutan's high-altitude communities. Yak milk is richer in fat and protein than cow's milk and is primarily processed into butter (used in suja, the salt-butter tea) and datshi cheese (the essential ingredient in ema datshi and all datshi dish variants). Hard dried yak cheese (chhurpi) is chewed throughout the day as a long-lasting snack. Dried yak meat (shakam) is stewed in datshi preparations.",
+    "answer_source": "bhutan_ingredient_yak_products",
+    "question_type": "ingredient",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_090",
+    "query": "What is the datshi stewing technique and why is it central to Bhutanese cooking?",
+    "answer": "Datshi stewing is the technique of simmering a main ingredient (chillies, potatoes, mushrooms, or dried meat) together with butter, water, and cubed or crumbled fresh datshi cheese until the cheese melts and emulsifies into a thick, creamy, savoury sauce. It is central to Bhutanese cooking because it forms an entire family of national dishes — ema datshi, kewa datshi, shamu datshi, and more — that are the country's most defining preparations. The cheese melts smoothly without becoming rubbery, naturally thickening the cooking liquid into a sauce without any added starch.",
+    "answer_source": "bhutan_technique_stewing_with_datshi_cheese",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_091",
+    "query": "What is buckwheat and why is it important in Bhutanese highland cuisine?",
+    "answer": "Buckwheat is a pseudocereal (not a true grain) grown in Bhutan's high-altitude regions including Bumthang and Haa Valley where the climate is too cold for rice cultivation. It is used to make hoentay (buckwheat dumpling wrappers), khur-le (buckwheat pancakes), and puta (buckwheat noodles from Bumthang). Buckwheat is nutritionally rich — high in protein, dietary fibre, and antioxidants — and its cold-climate adaptability makes it irreplaceable for highland communities. It has a distinctive grey-brown colour, slightly bitter earthy taste, and hearty texture.",
+    "answer_source": "bhutan_ingredient_buckwheat",
+    "question_type": "ingredient",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_092",
+    "query": "What is garudhiya and why is it considered the national dish of the Maldives?",
+    "answer": "Garudhiya is a clear fish broth made by simmering fresh tuna in water with salt, sometimes curry leaves and onion. It is considered the national dish of the Maldives because it is the most fundamental preparation in the cuisine — every household makes it regularly, it is the first dish taught to children learning to cook, and it represents the Maldivian fisherman's direct relationship with the sea. It is served with rice, fresh lime, sliced onion, dried chillies, and lonumirus paste, allowing each diner to season their bowl.",
+    "answer_source": "maldives_dish_garudhiya",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_093",
+    "query": "What is mas huni and what does it represent in Maldivian breakfast culture?",
+    "answer": "Mas huni (meaning 'fish coconut') is the quintessential Maldivian breakfast — shredded or flaked tuna mixed with freshly grated coconut, finely chopped onion, green chilli, lime juice, and salt, served at room temperature with roshi (flatbread) and sweet tea. It requires no cooking. Traditionally made with valhoamas (cured tuna), it is now commonly made with canned tuna. It is considered one of the most important expressions of Maldivian food identity and inseparable from the experience of island morning life.",
+    "answer_source": "maldives_dish_mas_huni",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_094",
+    "query": "Why is tuna so central to Maldivian cuisine and economy?",
+    "answer": "Tuna, particularly skipjack tuna, is the absolute centrepiece of Maldivian cuisine and the defining food of the nation. The Maldives' position in the Indian Ocean provides extraordinary access to large tuna populations. Tuna appears in virtually every meal in multiple forms: fresh (grilled, fried, in garudhiya), cured and smoked (valhoamas/Maldives fish), as rihaakuru (thick tuna paste), and in snacks like mas huni. The Maldives also exports significant quantities of smoked tuna to Sri Lanka and South India, where it is used as a flavour base.",
+    "answer_source": "maldives_ingredient_tuna",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_095",
+    "query": "How is Maldives fish (valhomas) produced and why is it used across the region?",
+    "answer": "Maldives fish (valhomas) is produced by boiling fresh skipjack tuna, smoking it over coconut husks for several hours, then sun-drying it for days to weeks until it becomes extremely dense, hard, and deeply concentrated in flavour. The resulting product has an almost indefinite shelf life. It is used across the region — particularly in Sri Lanka where it is an essential flavour base in pol sambol and curries, and in South India's coastal cuisines — because its intense umami-richness amplifies the flavour of any preparation it is added to.",
+    "answer_source": "maldives_technique_smoking___drying_fish",
+    "question_type": "procedural",
+    "difficulty": "hard"
+  },
+  {
+    "query_id": "sa_096",
+    "query": "What role did breadfruit play historically in the Maldivian diet?",
+    "answer": "Breadfruit (bambukeyo) was historically the most important local starchy staple in the Maldives before imported rice became affordable and widespread. Growing prolifically on the atolls with minimal cultivation, it was boiled, roasted, cooked in curries, or fermented, serving as a carbohydrate substitute for rice. Breadfruit curry (banbukeyo harisa) and sweet breadfruit pudding remain traditional preparations. It also served as a critical famine food for isolated island communities during disruptions to fishing or trade. Today it is a supplementary food though culturally valued.",
+    "answer_source": "maldives_ingredient_breadfruit",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_097",
+    "query": "What is a thali and how does it vary across Indian regions?",
+    "answer": "A thali is a traditional South Asian meal format in which a round tray holds multiple small dishes arranged around a central rice or bread, creating a complete meal that encompasses all nutritional and flavour components. Regional variations are significant: a North Indian thali features roti, dal, vegetable dishes, and raita; a Gujarati thali may have 10–15 dishes including farsan and a sweet; a South Indian thali is served on a banana leaf with rice, sambar, rasam, chutneys, and papad; and the Kerala Onam sadya includes 28 or more dishes in a prescribed traditional order.",
+    "answer_source": "crossregional_concept_thali",
+    "question_type": "factual",
+    "difficulty": "medium"
+  },
+  {
+    "query_id": "sa_098",
+    "query": "What is masala chai and how does it vary across South Asia?",
+    "answer": "Masala chai is spiced milk tea made by brewing black tea with fresh ginger, cardamom, cinnamon, cloves, and black pepper in milk and water, sweetened with sugar. There is no single canonical recipe — every household, roadside stall (chaiwala), and region has its own variation. Punjabi chai is rich with high milk content and heavy cardamom; in Maharashtra, ginger predominates; in Rajasthan it is very sweet. In Pakistan it is brewed with nutmeg and cloves. Small roadside tea stalls are fundamental social institutions across South Asia where communities gather throughout the day.",
+    "answer_source": "crossregional_concept_chai",
+    "question_type": "factual",
+    "difficulty": "easy"
+  },
+  {
+    "query_id": "sa_099",
+    "query": "What are the main differences between biryani traditions across South Asia?",
+    "answer": "Biryani varies significantly across South Asia. Hyderabadi biryani uses the kacchi (raw meat) dum method with saffron, fried onions, and mint for exceptional tenderness. Lucknawi biryani uses the pakki (pre-cooked) method for a more delicate character. Kolkata biryani adds boiled eggs and potatoes. Sindhi biryani (Pakistan) features potatoes and dried plums for a tangy quality. Malabar biryani (Kerala) uses short-grain kaima rice. Bangladeshi kacchi biryani is made with mutton and overnight marination. Despite their differences, all share the dum technique and basmati rice as common foundations.",
+    "answer_source": "crossregional_dish_biryani_variants",
+    "question_type": "comparative",
+    "difficulty": "hard"
   }
 ]
