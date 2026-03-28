@@ -1,0 +1,404 @@
+{
+  "queries": [
+    {
+      "query_id": "sa_000",
+      "query": "What is biryani and which culinary tradition is it most closely associated with?"
+    },
+    {
+      "query_id": "sa_001",
+      "query": "What is butter chicken and where did it originate?"
+    },
+    {
+      "query_id": "sa_002",
+      "query": "What is paneer and how is it made?"
+    },
+    {
+      "query_id": "sa_003",
+      "query": "What is ghee and why is it important in Indian cooking?"
+    },
+    {
+      "query_id": "sa_004",
+      "query": "What is dal makhani and what makes it distinctive?"
+    },
+    {
+      "query_id": "sa_005",
+      "query": "What is garam masala and how does it differ from curry powder?"
+    },
+    {
+      "query_id": "sa_006",
+      "query": "What is the dum cooking technique and which dishes use it?"
+    },
+    {
+      "query_id": "sa_007",
+      "query": "What is tadka and when is it used in Indian cooking?"
+    },
+    {
+      "query_id": "sa_008",
+      "query": "What is tamarind and how is it used in Indian cuisine?"
+    },
+    {
+      "query_id": "sa_009",
+      "query": "What are the key characteristics of Rajasthani cuisine and how has its geography shaped it?"
+    },
+    {
+      "query_id": "sa_010",
+      "query": "What is asafoetida and why is it particularly important in Jain cooking?"
+    },
+    {
+      "query_id": "sa_011",
+      "query": "What distinguishes Awadhi cuisine from Mughlai cuisine?"
+    },
+    {
+      "query_id": "sa_012",
+      "query": "What is the difference between dosa and idli?"
+    },
+    {
+      "query_id": "sa_013",
+      "query": "How does South Indian cuisine differ from North Indian cuisine?"
+    },
+    {
+      "query_id": "sa_014",
+      "query": "What is the difference between samosa and kachori?"
+    },
+    {
+      "query_id": "sa_015",
+      "query": "How does Hyderabadi cuisine differ from the broader North Indian culinary tradition?"
+    },
+    {
+      "query_id": "sa_016",
+      "query": "What distinguishes green cardamom from black cardamom in Indian cooking?"
+    },
+    {
+      "query_id": "sa_017",
+      "query": "How is dosa batter traditionally prepared?"
+    },
+    {
+      "query_id": "sa_018",
+      "query": "How is tandoori chicken traditionally prepared?"
+    },
+    {
+      "query_id": "sa_019",
+      "query": "What is the bhuna technique in Indian cooking?"
+    },
+    {
+      "query_id": "sa_020",
+      "query": "How is sambar prepared in South Indian cuisine?"
+    },
+    {
+      "query_id": "sa_021",
+      "query": "What are the culinary uses of turmeric in Indian cooking?"
+    },
+    {
+      "query_id": "sa_022",
+      "query": "What is atta and how is it different from maida?"
+    },
+    {
+      "query_id": "sa_023",
+      "query": "What is the role of curry leaves in Indian cuisine and where are they most commonly used?"
+    },
+    {
+      "query_id": "sa_024",
+      "query": "What are the defining characteristics of Gujarati cuisine?"
+    },
+    {
+      "query_id": "sa_025",
+      "query": "What makes Goan cuisine distinct from other Indian coastal cuisines?"
+    },
+    {
+      "query_id": "sa_026",
+      "query": "What is the wazwan and why is it culturally significant in Kashmir?"
+    },
+    {
+      "query_id": "sa_027",
+      "query": "What is chaat and what flavour principles define it?"
+    },
+    {
+      "query_id": "sa_028",
+      "query": "What is nihari and what is the significance of the word's origin?"
+    },
+    {
+      "query_id": "sa_029",
+      "query": "What is haleem and what is its historical origin?"
+    },
+    {
+      "query_id": "sa_030",
+      "query": "What is chapli kebab and what ingredients make it distinctive?"
+    },
+    {
+      "query_id": "sa_031",
+      "query": "What is sajji and how is it prepared?"
+    },
+    {
+      "query_id": "sa_032",
+      "query": "What is karahi and what distinguishes it from a standard curry?"
+    },
+    {
+      "query_id": "sa_033",
+      "query": "How does Sindhi cuisine differ from Punjabi cuisine in Pakistan?"
+    },
+    {
+      "query_id": "sa_034",
+      "query": "What is saag and how is it traditionally served in Pakistan?"
+    },
+    {
+      "query_id": "sa_035",
+      "query": "What role does wheat play in Pakistani cuisine?"
+    },
+    {
+      "query_id": "sa_036",
+      "query": "What is Pashtun cuisine known for and what is its distinctive cooking philosophy?"
+    },
+    {
+      "query_id": "sa_037",
+      "query": "What is paya and why is it significant in Pakistani food culture?"
+    },
+    {
+      "query_id": "sa_038",
+      "query": "How does Pakistani biryani differ from Indian biryani traditions?"
+    },
+    {
+      "query_id": "sa_039",
+      "query": "What is the karahi stir-cooking technique and how does it produce its characteristic result?"
+    },
+    {
+      "query_id": "sa_040",
+      "query": "What is the significance of barbecuing and grilling in Pakistani food culture?"
+    },
+    {
+      "query_id": "sa_041",
+      "query": "What is pulao and how does it differ from biryani?"
+    },
+    {
+      "query_id": "sa_042",
+      "query": "What is kottu roti and how is it made?"
+    },
+    {
+      "query_id": "sa_043",
+      "query": "What are hoppers and what makes them technically challenging to prepare?"
+    },
+    {
+      "query_id": "sa_044",
+      "query": "What is kiribath and what occasions is it associated with?"
+    },
+    {
+      "query_id": "sa_045",
+      "query": "What is lamprais and what colonial influence shaped it?"
+    },
+    {
+      "query_id": "sa_046",
+      "query": "What is goraka and what role does it play in Sri Lankan cuisine?"
+    },
+    {
+      "query_id": "sa_047",
+      "query": "What is Maldive fish and why is it central to Sri Lankan cooking?"
+    },
+    {
+      "query_id": "sa_048",
+      "query": "What is sambol in Sri Lankan cuisine and how is it prepared?"
+    },
+    {
+      "query_id": "sa_049",
+      "query": "How does Sri Lankan cuisine differ from South Indian cuisine?"
+    },
+    {
+      "query_id": "sa_050",
+      "query": "What is fish ambul thiyal and what makes it distinctive among Sri Lankan dishes?"
+    },
+    {
+      "query_id": "sa_051",
+      "query": "What is Ceylon cinnamon and why is it considered superior to cassia?"
+    },
+    {
+      "query_id": "sa_052",
+      "query": "What is the role of coconut milk in Sri Lankan cooking?"
+    },
+    {
+      "query_id": "sa_053",
+      "query": "What is kool and which community's cuisine does it represent?"
+    },
+    {
+      "query_id": "sa_054",
+      "query": "What is the difference between hoppers and string hoppers?"
+    },
+    {
+      "query_id": "sa_055",
+      "query": "How is the fermentation of hopper batter carried out and what effect does it have?"
+    },
+    {
+      "query_id": "sa_056",
+      "query": "What is ilish curry and why is the hilsa fish culturally significant in Bangladesh?"
+    },
+    {
+      "query_id": "sa_057",
+      "query": "What is bhuna khichuri and what distinguishes it from regular khichuri?"
+    },
+    {
+      "query_id": "sa_058",
+      "query": "What is panta bhat and what cultural significance does it hold in Bangladesh?"
+    },
+    {
+      "query_id": "sa_059",
+      "query": "What is bhorta and what role does mustard oil play in it?"
+    },
+    {
+      "query_id": "sa_060",
+      "query": "What is panch phoron and which cuisines use it?"
+    },
+    {
+      "query_id": "sa_061",
+      "query": "What is the bhuna technique and why is it considered the foundation of Bangladeshi curry cooking?"
+    },
+    {
+      "query_id": "sa_062",
+      "query": "What is mustard oil and why is it important in Bengali and Bangladeshi cooking?"
+    },
+    {
+      "query_id": "sa_063",
+      "query": "What is bakarkhani and what is its connection to Old Dhaka?"
+    },
+    {
+      "query_id": "sa_064",
+      "query": "What is the hilsa fish and why is it so prized?"
+    },
+    {
+      "query_id": "sa_065",
+      "query": "What is kacchi biryani and how is it prepared?"
+    },
+    {
+      "query_id": "sa_066",
+      "query": "What is dal bhat tarkari and why is it considered Nepal's national meal?"
+    },
+    {
+      "query_id": "sa_067",
+      "query": "What is the origin of momo and how has it evolved in Nepal?"
+    },
+    {
+      "query_id": "sa_068",
+      "query": "What is gundruk and how is it made?"
+    },
+    {
+      "query_id": "sa_069",
+      "query": "What is timur pepper and what makes it distinctive as a spice?"
+    },
+    {
+      "query_id": "sa_070",
+      "query": "What is sel roti and when is it traditionally made?"
+    },
+    {
+      "query_id": "sa_071",
+      "query": "What is Newa (Newari) cuisine and what makes it distinct within Nepal?"
+    },
+    {
+      "query_id": "sa_072",
+      "query": "What is yomari and what festival is it associated with?"
+    },
+    {
+      "query_id": "sa_073",
+      "query": "What is thukpa and where is it eaten in Nepal?"
+    },
+    {
+      "query_id": "sa_074",
+      "query": "What is dhindo and how is it prepared?"
+    },
+    {
+      "query_id": "sa_075",
+      "query": "How is the steaming technique for momos carried out and why is it important?"
+    },
+    {
+      "query_id": "sa_076",
+      "query": "What is Kabuli palaw and why is it Afghanistan's national dish?"
+    },
+    {
+      "query_id": "sa_077",
+      "query": "What is mantu and how is it typically served?"
+    },
+    {
+      "query_id": "sa_078",
+      "query": "What is ashak and how does it differ from mantu?"
+    },
+    {
+      "query_id": "sa_079",
+      "query": "How is the Afghan pilaf cooking technique different from other rice traditions?"
+    },
+    {
+      "query_id": "sa_080",
+      "query": "What is bolani and what are the most popular fillings?"
+    },
+    {
+      "query_id": "sa_081",
+      "query": "What is qorma in Afghan cuisine and how is it different from South Asian korma?"
+    },
+    {
+      "query_id": "sa_082",
+      "query": "Why are dried fruits important in Afghan cuisine?"
+    },
+    {
+      "query_id": "sa_083",
+      "query": "What is aush and what role does it play in Afghan food culture?"
+    },
+    {
+      "query_id": "sa_084",
+      "query": "What is ema datshi and why is it Bhutan's national dish?"
+    },
+    {
+      "query_id": "sa_085",
+      "query": "How is the role of chilli peppers in Bhutanese cooking different from other South Asian cuisines?"
+    },
+    {
+      "query_id": "sa_086",
+      "query": "What is phaksha paa and what does it reveal about Bhutanese food preservation traditions?"
+    },
+    {
+      "query_id": "sa_087",
+      "query": "What is hoentay and how does it differ from momo?"
+    },
+    {
+      "query_id": "sa_088",
+      "query": "What is Bhutanese red rice and what makes it nutritionally distinctive?"
+    },
+    {
+      "query_id": "sa_089",
+      "query": "What role do yak products play in Bhutanese highland cuisine?"
+    },
+    {
+      "query_id": "sa_090",
+      "query": "What is the datshi stewing technique and why is it central to Bhutanese cooking?"
+    },
+    {
+      "query_id": "sa_091",
+      "query": "What is buckwheat and why is it important in Bhutanese highland cuisine?"
+    },
+    {
+      "query_id": "sa_092",
+      "query": "What is garudhiya and why is it considered the national dish of the Maldives?"
+    },
+    {
+      "query_id": "sa_093",
+      "query": "What is mas huni and what does it represent in Maldivian breakfast culture?"
+    },
+    {
+      "query_id": "sa_094",
+      "query": "Why is tuna so central to Maldivian cuisine and economy?"
+    },
+    {
+      "query_id": "sa_095",
+      "query": "How is Maldives fish (valhomas) produced and why is it used across the region?"
+    },
+    {
+      "query_id": "sa_096",
+      "query": "What role did breadfruit play historically in the Maldivian diet?"
+    },
+    {
+      "query_id": "sa_097",
+      "query": "What is a thali and how does it vary across Indian regions?"
+    },
+    {
+      "query_id": "sa_098",
+      "query": "What is masala chai and how does it vary across South Asia?"
+    },
+    {
+      "query_id": "sa_099",
+      "query": "What are the main differences between biryani traditions across South Asia?"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-sentence-transformers
-transformers
-rank-bm25
-accelerate
-rouge-score
-bert-score
-nltk
-numpy
-torch
